@@ -30,6 +30,7 @@ p {
     margin-top: 100px;
 }
 
+<<<<<<< HEAD
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -43,6 +44,12 @@ p {
 .header a {
     float: left;
     color: black;
+=======
+#hovedHeader {
+    background-color: white;
+    color: green;
+    padding: 40px;
+>>>>>>> c727ac7a0e33bb24ca70260fc9b2b816e6b97331
     text-align: center;
     padding: 12px;
     text-decoration: none;

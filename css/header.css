@@ -9,11 +9,6 @@
 h1 {
     padding: 0;
     margin: 0;
-    border-bottom: solid;
-    border-top: solid;
-    border-color: #333;
-    border-width: 5px;
-    border-radius: 8px;
 }
 
 .header .headerOverskrift {
@@ -48,7 +43,6 @@ h1 {
 
 .headerBar {
     float: right;
-
 }
 
 @media screen and (max-width: 500px) {

@@ -1,20 +1,11 @@
 * {
-  box-sizing: border-box;
   font-family: sans-serif;
-}
-
-body, html {
   margin: 0;
+}
+
+html {
   height: 100%;
-}
-
-h2 {
-  color: navy;
-  margin-left: 20px;
-}
-
-p {
-    margin-left: 20px;
+  background-image: url("../bilder/pic1.jpg");
 }
 
 

@@ -1,38 +1,40 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  margin-left: 30px;
-  margin-right: 30px;
-
+.toolBar {
+    position: sticky;
+    top: 0;
 }
 
-#forsideTab, #annetTab, #prosjekterTab, #artiklerTab{
-      background-color: #111;
+.toolBar ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;
+    padding: 10px;
 }
 
-li {
-  float: left;
+.toolBar #forsideTab, #annetTab, #prosjekterTab, #artiklerTab{
+    background-color: #111;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.toolBar li {
+    float: left;
 }
 
-li a:hover {
-  background-color: #111;
+.toolBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-li a:focus {
-  background-color: #111;
+.toolBar li a:hover {
+    background-color: #111;
 }
 
-li a:active {
-  background-color: #111;
+.toolBar li a:focus {
+    background-color: #111;
+}
+
+.toolBar li a:active {
+    background-color: #111;
 }

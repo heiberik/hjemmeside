@@ -5,35 +5,21 @@
 
 html {
   height: 100%;
-  background-image: url("../bilder/pic1.jpg");
-}
-
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-  float: left;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  background-color: #232323;
 }
 
 .footer {
     text-align: center;
-    margin-left: 20px;
+    color: #b7aeae;
     margin-top: 1000px;
+}
+
+h1 {
+    color: 	#778899;
+    font-size: 35px;
+}
+
+h2 {
+  color: 	#C0C0C0;
+  margin-left: 20px;
 }

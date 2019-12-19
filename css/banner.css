@@ -1,0 +1,13 @@
+.banner {
+    background-color: #232323;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+}

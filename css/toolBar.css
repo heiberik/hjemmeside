@@ -4,8 +4,7 @@
     background-color: #2F4F4F;
     display: flex;
     justify-content: space-between;
-    border-top: solid #778899 1px;
-    border-bottom: solid black 1px;
+    border-top: solid black 1px;
     z-index: 2;
     padding-left: 40px;
     padding-right: 40px;
@@ -15,17 +14,21 @@
     background-color: #2F4F4F;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .toolBar_item {
-    color: 	#778899;
+    color: 	white;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 .toolBar_item:hover {
-    background-color: #2E4A4F;
+
+    background-color: #2F4A4F;
     border-right: solid black 1px;
     border-left: solid black 1px;
+    margin-left: -1px;
+    margin-right: 19px;
 }

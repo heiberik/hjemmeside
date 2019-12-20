@@ -4,7 +4,6 @@
     background-color: #2F4F4F;
     display: flex;
     justify-content: space-between;
-    border-top: solid black 1px;
     z-index: 2;
     padding-left: 40px;
     padding-right: 40px;

@@ -20,6 +20,13 @@ h1 {
 }
 
 h2 {
-  color: 	#C0C0C0;
-  margin-left: 20px;
+  color: #778899;
+}
+
+h3 {
+  color: #778899;
+}
+
+p {
+    color: #b7aeae;
 }

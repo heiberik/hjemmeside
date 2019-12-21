@@ -11,7 +11,7 @@ html {
 .footer {
     text-align: center;
     color: #b7aeae;
-    margin-top: 1200px;
+    margin-top: 100px;
 }
 
 .mal_innhold {
@@ -30,13 +30,13 @@ html {
 }
 
 
-.logo {
+.logo_pop {
     transition: transform .5s;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.logo:hover {
+.logo_pop:hover {
     transform: scale(1.2);
 }
 

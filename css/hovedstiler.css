@@ -1,16 +1,17 @@
 * {
-  font-family: sans-serif;
-  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 html {
-  height: 100%;
-  background-color: #232323;
+    height: 100%;
+    background-color: #232323;
 }
 
 .footer {
     text-align: center;
     color: #b7aeae;
+    margin-top: 1200px;
 }
 
 
@@ -21,15 +22,25 @@ h1 {
 }
 
 h2 {
-  color: #778899;
+    color: #778899;
+    line-height: 40px;
 }
 
 h3 {
-  color: #778899;
-  line-height: 1.4;
+    color: #778899;
+    line-height: 30px;
 }
 
 p {
     color: #b7aeae;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.p_timeline {
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #b7aeae;
 }

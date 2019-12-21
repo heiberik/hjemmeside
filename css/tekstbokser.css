@@ -1,14 +1,11 @@
 .innhold {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
     justify-content: center;
+    border-left: black 1px solid;
 }
 
 .tekstBoks {
     color: #b7aeae;
     background-color: inherit;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: 80ch;
+    max-width: 70ch;
 }

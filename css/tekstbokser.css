@@ -1,7 +1,6 @@
 .innhold {
     display: flex;
     justify-content: center;
-    border-left: black 1px solid;
 }
 
 .tekstBoks {
@@ -9,3 +8,10 @@
     background-color: inherit;
     max-width: 70ch;
 }
+
+.artikkel {
+    max-width: 70ch;
+    padding-bottom: 20px;
+}
+
+#more {display: none;}

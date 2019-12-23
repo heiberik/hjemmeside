@@ -7,11 +7,13 @@
     background-color: #b7aeae;
     display: flex;
     justify-content: space-between;
+    border-top: 4px #2F4F4F solid;
 }
 
 .footer p {
-    color: #2F4F4F;
+    color: black;
 }
+
 
 .boks {
     display: flex;

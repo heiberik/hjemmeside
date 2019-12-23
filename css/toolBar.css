@@ -22,13 +22,9 @@
     text-decoration: none;
     padding: 10px;
     margin-right: 20px;
+    transition: color .3s;
 }
 
 .toolBar_item:hover {
-
-    background-color: #2F4A4F;
-    border-right: solid black 1px;
-    border-left: solid black 1px;
-    margin-left: -1px;
-    margin-right: 19px;
+    color: #778899;
 }

@@ -6,12 +6,14 @@
 .tekstBoks {
     color: #b7aeae;
     background-color: inherit;
-    max-width: 70ch;
+    width: 70ch;
 }
 
 .artikkel {
-    max-width: 70ch;
-    padding-bottom: 20px;
+    width: 70ch;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid black 1px;
 }
 
 #more {display: none;}

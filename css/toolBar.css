@@ -32,9 +32,13 @@
 
 .main-nav li {
     text-align: center;
-    padding: 10px;
     border-bottom: solid black 1px;
+    background-color: gray;
+}
 
+.main-nav a {
+    display: block;
+    padding: 10px;
 }
 
 .navbar .logo {

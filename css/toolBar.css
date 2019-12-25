@@ -71,6 +71,7 @@
 .active {
     display: block;
     margin-bottom: -5px;
+    border-bottom: red solid 0px;
 }
 
 

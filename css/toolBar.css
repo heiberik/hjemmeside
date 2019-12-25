@@ -79,6 +79,12 @@
 
 @media screen and (min-width: 768px) {
 
+    .top_li {
+        border-top: solid black 0px;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+
     .navbar {
         position: sticky;
         overflow: hidden;
@@ -91,6 +97,7 @@
         display: none;
     }
 
+
     .main-nav {
         display: flex;
         margin: 10px;
@@ -98,6 +105,9 @@
 
     .main-nav li {
         margin-right: 25px;
+        text-align: center;
+        border-bottom: solid black 0px;
+        background-color: inherit;
     }
 
     .main-nav a{

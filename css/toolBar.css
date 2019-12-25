@@ -1,17 +1,25 @@
 .navbar {
     font-size: 18px;
     background-color: #2F4F4F;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .main-nav {
     list-style-type: none;
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav_link {
     text-decoration: none;
     color: #b7aeae;
+}
+
+.top_li {
+    border-top: solid black 1px;
+    margin-top: 5px;
 }
 
 .nav_logo h1 {
@@ -24,7 +32,9 @@
 
 .main-nav li {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-bottom: solid black 1px;
+
 }
 
 .navbar .logo {
@@ -45,15 +55,21 @@
 .navbar-toggle {
     position: absolute;
     top: parent;
+    margin-top: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
     right: 20px;
     cursor: pointer;
     font-size: 30px;
+
 }
 
 .active {
     display: block;
-    padding: 5px;
+    margin-bottom: -5px;
 }
+
+
 
 
 

@@ -1,52 +1,94 @@
-.toolBar {
-    position: sticky;
-    top: -1px;
+.navbar {
+    font-size: 18px;
     background-color: #2F4F4F;
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 5px;
 }
 
-.toolBar_seksjon {
-    background-color: #2F4F4F;
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #b7aeae;
+}
+
+.nav_logo h1 {
+    font-size: 20px;
+}
+
+.nav_logo {
     display: flex;
+}
+
+.main-nav li {
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar .logo {
+    display: flex;
+    font-size: 18px;
+    margin-left: 20px;
+    width: auto;
+    justify-content: flex-start;
     align-items: center;
-    padding: 10px;
 }
 
-.toolBar_item {
-    color: 	white;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px;
-    margin-right: 20px;
-    transition: color .3s;
+.icon {
+    display: none;
+    align-items: center;
 }
 
-.toolBar_item_gjeldende {
-    color: 	#778899;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px;
-    margin-right: 20px;
-    transition: color .3s;
+
+.navbar-toggle {
+    position: absolute;
+    top: parent;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
 }
 
-.toolBar_item:hover {
-    color: #778899;
-}
-
-.toolBar_item_gjeldende:hover {
-    color: #778899;
+.active {
+    display: block;
+    padding: 5px;
 }
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 768px) {
 
+    .navbar {
+        position: sticky;
+        overflow: hidden;
+        top: -1px;
+        background-color: #2F4F4F;
+        z-index: 2;
+    }
 
+    .nav_logo, .navbar-toggle {
+        display: none;
+    }
 
+    .main-nav {
+        display: flex;
+        margin: 10px;
+    }
 
+    .main-nav li {
+        margin-right: 25px;
+    }
+
+    .main-nav a{
+        color: white;
+    }
+
+    .main-nav a:hover {
+        color: #778899;
+    }
+
+    #nav_gjeldende {
+        color: #778899;
+    }
 }

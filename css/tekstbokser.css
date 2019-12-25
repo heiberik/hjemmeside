@@ -17,3 +17,10 @@
 }
 
 #more {display: none;}
+
+@media screen and (max-width: 768px) {
+    .tekstBoks {
+        width: 70ch;
+        padding: 5px;
+    }
+}

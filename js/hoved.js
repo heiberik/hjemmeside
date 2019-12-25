@@ -1,4 +1,6 @@
-$('li').click(function() {
-  $(this).siblings().find('a').removeClass('focus');
-  $(this).find('a').addClass('focus');
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
 });

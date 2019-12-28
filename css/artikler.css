@@ -1,0 +1,123 @@
+.search {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 5px solid #444444;
+  border-right: none;
+  padding: 10px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #444444;
+  font-size: 16px;
+}
+
+.searchTerm:focus{
+    color: #444444;
+}
+
+.searchButton {
+  width: 60px;
+  height: 50px;
+  border: 5px solid #444444;
+  background: #444444;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.artikkel {
+    width: 70ch;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid black 1px;
+}
+
+
+.artikler_topp {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    background-image: linear-gradient(to right, #232323, #444444, #232323);
+}
+
+.artikler_topp_innhold {
+    display: flex;
+
+}
+
+
+.artikkel_preview {
+    width: 25%;
+    background-color: #232323;
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.5s;
+
+}
+
+.artikkel_preview:hover {
+    transform: translateY(-20px);
+}
+
+.artikler_mal {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #232323;
+}
+
+.artikkel_vanlig {
+    height: 150px;
+    width: 60%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.artikkel_vanlig_tekst {
+    padding: 15px;
+}
+
+
+.artikkel_vanlig img {
+    height: 100%;
+    width: 30%;
+}
+
+.artikkel_preview img {
+    width: 100%;
+    border: solid black 2px;
+}
+
+.artikkel_preview h4 {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+}
+.artikkel_preview p {
+    padding: 10px;
+    padding-top: 0px;
+
+}

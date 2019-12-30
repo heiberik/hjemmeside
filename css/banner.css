@@ -10,7 +10,6 @@
     background-size: cover;
 }
 
-
 .banner h1 {
     font-size: 60px;
     font-variant: small-caps;
@@ -21,12 +20,13 @@
 
 #banner_eksp {
     background-image: url("../bilder/banner11.jpg");
+    border-bottom: solid 2px black;
 
 }
 
 #banner_eksp h1 {
     color: white;
-    text-shadow: 2px 2px green;
+    text-shadow: 8px 4px green, -4px -4px red, -6px 10px yellow;
 }
 
 

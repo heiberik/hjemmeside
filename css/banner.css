@@ -1,19 +1,33 @@
 .banner {
     background-color: #232323;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: solid 2px black;
+    background-image: url("../bilder/banner2.jpg");
+    background-position: center;
+    background-size: cover;
 }
+
 
 .banner h1 {
     font-size: 60px;
-    font-weight: bold;
     font-variant: small-caps;
-    color: white;
+    font-family:  sans-serif;
+    color: black;
+    text-shadow: 2px 2px orange;
 }
 
+#banner_eksp {
+    background-image: url("../bilder/banner11.jpg");
+
+}
+
+#banner_eksp h1 {
+    color: white;
+    text-shadow: 2px 2px green;
+}
 
 
 @media screen and (max-width: 768px) {

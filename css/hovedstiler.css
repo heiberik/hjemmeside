@@ -37,7 +37,7 @@ html {
 
 
 h1 {
-    color: 	#778899;
+    color: 	white;
     font-size: 40px;
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    color: #778899;
+    color: white;
     line-height: 30px;
 }
 
@@ -58,7 +58,7 @@ h4 {
 
 
 p {
-    color: #b7aeae;
+    color: #c6bebe;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 2px;

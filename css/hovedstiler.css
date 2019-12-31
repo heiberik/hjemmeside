@@ -8,6 +8,13 @@ html {
     background-color: #232323;
 }
 
+.construction {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 1000px;
+}
+
 
 .mal_innhold {
     max-width: 90ch;

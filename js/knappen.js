@@ -1,18 +1,19 @@
 const evilButton = document.getElementById('evil-button')
 const OFFSET = 50
 var teller = 0
-const tekst = ['STOPP DA','HARASSMENT','IKKEEEE!', 'IKKE KLIKK MEG', '']
+const tekst = ['STOPP DA','HARASSMENT','SLUTTOPP!', 'IKKE KLIKK MEG']
 
 
 $(window).scroll(function() {
-
     if ($(this).scrollTop()>0)
      {
         $('#evil-button').fadeOut();
+        $('.eksp_bakgrunn_peppa').fadeOut();
      }
     else
      {
       $('#evil-button').fadeIn();
+      $('.eksp_bakgrunn_peppa').fadeIn();
      }
  });
 

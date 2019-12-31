@@ -1,8 +1,8 @@
 #body_knappen {
-    width: 100vw;
-    height: 70vh;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 70vw;
+    height: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,16 @@
     position: absolute;
     white-space: nowrap;
     font-size: 2rem;
+    width: 300px;
 }
 
 #eksp_footer {
     margin-top: 1000px;
+}
+
+.eksp_bakgrunn_peppa {
+    position: absolute;
+    display: flex;
+    top: 38px;
+    right: 20px;
 }

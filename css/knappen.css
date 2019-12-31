@@ -28,3 +28,10 @@
     top: 38px;
     right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .eksp_bakgrunn_peppa {
+        display: none !important;
+    }
+}

@@ -103,4 +103,11 @@ p {
         height: 70px;
         width: auto;
     }
+
+    .construction {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 500px;
+    }
 }

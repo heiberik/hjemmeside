@@ -1,13 +1,22 @@
-
 #body_knappen {
-    margin: 0;
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #evil-button {
+    color: black;
+    border: solid black 2px;
+    background-image:linear-gradient(orange,rgb(255,140,0));
     position: absolute;
     white-space: nowrap;
     font-size: 2rem;
+}
+
+#eksp_footer {
+    margin-top: 1000px;
 }

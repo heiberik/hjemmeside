@@ -7,6 +7,7 @@
 .innhold {
     display: flex;
     justify-content: center;
+    padding: 10px;
 
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */

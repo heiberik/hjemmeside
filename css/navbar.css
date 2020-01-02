@@ -1,9 +1,10 @@
 .navbar {
     font-size: 16px;
     background-color: #2F4F4F;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background-image:linear-gradient(orange,rgb(255,140,0));
+    margin: auto;
 }
 
 .main-nav {

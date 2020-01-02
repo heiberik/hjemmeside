@@ -5,23 +5,25 @@
 
 html {
     height: 100%;
-    background-color: #232323;
+    background-color: #161616;
 }
 
 .construction {
     display: flex;
     justify-content: center;
     margin-top: 250px;
-    margin-bottom: 1000px;
+    margin-bottom: 250px;
 }
 
 
 .mal_innhold {
-    max-width: 90ch;
+    max-width: 80vw;
+    background-color: #232323;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: solid 1px black;
+    border-bottom: 0px;
 }
 
 .flex_logoer {
@@ -85,8 +87,11 @@ p {
 
     .mal_innhold {
         max-width: 100%;
-        margin: 5px;
-        padding: 5px;
+        padding: 15px;
+        border: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 50px;
+        padding-top: 30px;
     }
 
     .flex_logoer {

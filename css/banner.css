@@ -1,22 +1,23 @@
 .banner {
-    max-width: 80vw;
     margin: auto;
-    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #232323;
-    background-image: url("../bilder/banner31.jpg");
+    background-image: url("../bilder/banner11.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    border-bottom: solid 2px black;
 }
 
 .banner h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-variant: small-caps;
     font-family:  sans-serif;
-    color: white;
-    text-shadow: 4px 4px black;
+    color: #232323;
+    text-shadow: 3px 3px gray;
 }
 
 #banner_eksp {

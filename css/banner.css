@@ -1,33 +1,39 @@
 .banner {
+    max-width: 80vw;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 50px;
+    padding: 25px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #232323;
-    background-image: url("../bilder/banner11.jpg");
     background-size: cover;
     background-position: right;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px black;
+    background-color: #232323;
 }
 
 .banner h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-variant: small-caps;
     font-family:  sans-serif;
-    color: #232323;
-    text-shadow: 3px 3px gray;
+    color: white;
+    text-shadow: 3px 3px black;
 }
 
 #banner_eksp {
-    background-image: url("../bilder/banner3.jpg");
     background-position: center;
 }
 
 #banner_eksp h1 {
-    color: white;
-    text-shadow: 8px 4px green, -4px -4px red, -6px 10px yellow;
+
+}
+
+.eksp_bakgrunn_peppa {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 200px;
 }
 
 
@@ -47,7 +53,7 @@
     }
 
     .banner h1 {
-        font-size: 40px;
+        font-size: 30px;
         padding: 10px;
     }
 }

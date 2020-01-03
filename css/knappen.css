@@ -18,12 +18,7 @@
 }
 
 
-.eksp_bakgrunn_peppa {
-    position: absolute;
-    display: flex;
-    top: 0px;
-    right: 200px;
-}
+
 
 @media screen and (max-width: 768px) {
 

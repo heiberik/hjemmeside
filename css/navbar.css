@@ -1,8 +1,6 @@
 .navbar {
     font-size: 16px;
     background-color: #2F4F4F;
-    padding-top: 4px;
-    padding-bottom: 4px;
     background-image:linear-gradient(orange,rgb(255,140,0));
     margin: auto;
 }
@@ -105,11 +103,12 @@
 
     .main-nav {
         display: flex;
-        margin: 10px;
+        margin: 8px;
     }
 
     .main-nav li {
-        margin-right: 25px;
+        margin-right: 15px;
+        margin-left: 15px;
         text-align: center;
         border-bottom: solid black 0px;
         background-color: inherit;

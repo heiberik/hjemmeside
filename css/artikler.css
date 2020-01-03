@@ -1,46 +1,27 @@
-.search {
-  width: 30%;
-  display: flex;
-  justify-content: center;
+.artikler_fadein {
+    max-width: 80vw;
+    margin: auto;
+    background-color: #232323;
 }
 
-.searchTerm {
-  width: 100%;
-  border: 5px solid #444444;
-  border-right: none;
-  padding: 10px;
-  height: 50px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #444444;
-  font-size: 16px;
-}
-
-.searchTerm:focus{
-    color: #444444;
-}
-
-.searchButton {
-  width: 60px;
-  height: 50px;
-  border: 5px solid #444444;
-  background: #444444;
-  text-align: center;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 30px;
-  padding: 5px;
-  padding-right: 10px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
+.wrap {
+    max-width: 80vw;
+    margin: auto;
+    background-color: #232323;
+    padding-left: 120px;
+    padding-top: 100px;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
 }
 
 
+.wrap h2 {
+    color: gray;
+    text-shadow: 2px 2px black;
+}
 
 .artikkel {
     width: 70ch;
@@ -49,51 +30,71 @@
     border-bottom: solid black 1px;
 }
 
-
 .artikler_topp {
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
     padding: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 80px;
     background-image: linear-gradient(to right, #232323, #444444, #232323);
 }
 
 .artikler_topp_innhold {
     display: flex;
-
+    justify-content: center;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
 }
 
 
 .artikkel_preview {
     width: 25%;
-    background-color: #232323;
     margin: 10px;
     padding: 15px;
-    transition: transform 0.5s;
-
+    transition: transform 0.8s;
+    border: solid #161616 2px;
+    border-radius: 20px;
+    background-color: white;
 }
 
+
 .artikkel_preview:hover {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 
 .artikler_mal {
+    max-width: 80vw;
+    margin: auto;
     padding: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #232323;
+    background-image: linear-gradient(to right, #232323, #444444, #232323);
 }
 
 .artikkel_vanlig {
-    height: 150px;
+    height: 100px;
     width: 60%;
     margin-left: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
     display: flex;
+    transition: transform 0.8s;
+    border: solid #161616 2px;
+    border-radius: 20px;
+    background-color: white;
+
 }
+
+.artikkel_vanlig:hover {
+    transform: translateX(15px);
+}
+
+
 
 .artikkel_vanlig_tekst {
     padding: 15px;
@@ -102,22 +103,70 @@
 
 .artikkel_vanlig img {
     height: 100%;
-    width: 30%;
+    width: 20%;
+}
+
+.artikkel_vanlig p {
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .artikkel_preview img {
+    height: 110px;
     width: 100%;
-    border: solid black 2px;
+    border: solid black 1px;
+    padding: 0;
+    margin: 0;
 }
 
 .artikkel_preview h4 {
-    padding: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 0px;
-    color: white;
+    color: black;
 }
-.artikkel_preview p {
-    padding: 10px;
-    padding-top: 0px;
 
+.artikkel_preview p {
+
+    text-align: left;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: black;
+}
+
+
+#prew1 {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+#prew2 {
+    -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3.5s; /* Firefox < 16 */
+        -ms-animation: fadein 3.5s; /* Internet Explorer */
+         -o-animation: fadein 3.5s; /* Opera < 12.1 */
+            animation: fadein 3.5s;
+}
+
+#prew3 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+#prew4 {
+    -webkit-animation: fadein 4.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4.5s; /* Firefox < 16 */
+        -ms-animation: fadein 4.5s; /* Internet Explorer */
+         -o-animation: fadein 4.5s; /* Opera < 12.1 */
+            animation: fadein 4.5s;
 }

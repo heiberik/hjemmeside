@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px black solid;
+    background-image:linear-gradient(orange,rgb(255,140,0));
 
 }
 

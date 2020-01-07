@@ -20,9 +20,7 @@ html {
     max-width: 80vw;
     background-color: #232323;
     margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-top: solid 1px black;
+
     border-bottom: 0px;
 }
 

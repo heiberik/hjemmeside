@@ -58,7 +58,8 @@
     transition: transform 0.8s;
     border: solid #161616 2px;
     border-radius: 20px;
-    background-color: white;
+    background-color: orange;
+    background-image:linear-gradient(orange,rgb(255,140,0));
 }
 
 
@@ -81,12 +82,12 @@
     width: 60%;
     margin-left: 10px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     transition: transform 0.8s;
     border: solid #161616 2px;
-    border-radius: 20px;
-    background-color: white;
+    border-radius: 10px;
+    background-color: #232323;
 
 }
 

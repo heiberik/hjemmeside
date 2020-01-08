@@ -1,173 +1,51 @@
-.artikler_fadein {
-    max-width: 80vw;
-    margin: auto;
-    background-color: #232323;
-}
 
-.wrap {
-    max-width: 80vw;
-    margin: auto;
-    background-color: #232323;
-    padding-left: 120px;
-    padding-top: 100px;
-    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 1.5s; /* Internet Explorer */
-         -o-animation: fadein 1.5s; /* Opera < 12.1 */
-            animation: fadein 1.5s;
-}
-
-
-.wrap h2 {
-    color: gray;
-    text-shadow: 2px 2px black;
-}
-
-.artikkel {
-    width: 70ch;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid black 1px;
-}
-
-.artikler_topp {
+.artikler_flex {
+    max-width: 70ch;
     display: flex;
-    max-width: 80vw;
-    margin: auto;
-    padding: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: linear-gradient(to right, #232323, #444444, #232323);
-}
-
-.artikler_topp_innhold {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 1.5s; /* Internet Explorer */
-         -o-animation: fadein 1.5s; /* Opera < 12.1 */
-            animation: fadein 1.5s;
 }
 
-
-.artikkel_preview {
-    width: 25%;
-    margin: 10px;
-    padding: 15px;
-    transition: transform 0.8s;
-    border: solid #161616 2px;
-    border-radius: 20px;
-    background-color: orange;
-    background-image:linear-gradient(orange,rgb(255,140,0));
-}
-
-
-.artikkel_preview:hover {
-    transform: translateY(-10px);
-}
-
-.artikler_mal {
-    max-width: 80vw;
-    margin: auto;
-    padding: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #232323;
-    background-image: linear-gradient(to right, #232323, #444444, #232323);
-}
-
-.artikkel_vanlig {
-    height: 100px;
-    width: 60%;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    display: flex;
-    transition: transform 0.8s;
-    border: solid #161616 2px;
-    border-radius: 10px;
-    background-color: #232323;
-
-}
-
-.artikkel_vanlig:hover {
-    transform: translateX(15px);
-}
-
-
-
-.artikkel_vanlig_tekst {
-    padding: 15px;
-}
-
-
-.artikkel_vanlig img {
-    height: 100%;
-    width: 20%;
-}
-
-.artikkel_vanlig p {
-    color: white;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-}
-
-.artikkel_preview img {
-    height: 110px;
-    width: 100%;
+.artikler_item {
+    width: 22.22ch;
+    margin: 5px;
+    background-color: black;
     border: solid black 1px;
-    padding: 0;
+    border-radius: 15px;
+}
+
+.artikler_item:hover {
+    border: solid orange 1px;
+}
+
+.artikler_item img {
+    width: inherit;
+    padding: 15px;
     margin: 0;
+    border-radius: 30px;
 }
 
-.artikkel_preview h4 {
-    padding-top: 10px;
-    padding-bottom: 0px;
-    color: black;
-}
-
-.artikkel_preview p {
-
+.artikler_item p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     text-align: left;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 25px;
     letter-spacing: 1px;
     word-spacing: 1px;
-    color: black;
 }
 
-
-#prew1 {
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+.artikler_item h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
 }
 
-#prew2 {
-    -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3.5s; /* Firefox < 16 */
-        -ms-animation: fadein 3.5s; /* Internet Explorer */
-         -o-animation: fadein 3.5s; /* Opera < 12.1 */
-            animation: fadein 3.5s;
-}
-
-#prew3 {
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
-}
-
-#prew4 {
-    -webkit-animation: fadein 4.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4.5s; /* Firefox < 16 */
-        -ms-animation: fadein 4.5s; /* Internet Explorer */
-         -o-animation: fadein 4.5s; /* Opera < 12.1 */
-            animation: fadein 4.5s;
+.link_artikkel {
+    text-decoration: none;
+    color: white;
 }

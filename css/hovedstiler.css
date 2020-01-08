@@ -74,6 +74,11 @@ p {
     text-align: justify;
 }
 
+sup a {
+    text-decoration: none;
+    color: white;
+}
+
 .p_timeline {
     line-height: 1.2;
     letter-spacing: 0;

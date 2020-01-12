@@ -1,21 +1,19 @@
-
 .artikler_flex {
-    max-width: 70ch;
+    width: 80ch;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .artikler_item {
     width: 22.22ch;
-    margin: 5px;
     background-color: black;
-    border: solid black 1px;
+    border: solid orange 1px;
     border-radius: 15px;
+    margin-right: 10px;
 }
 
 .artikler_item:hover {
-    border: solid orange 1px;
+    border: solid white 1px;
 }
 
 .artikler_item img {
@@ -30,10 +28,38 @@
     padding-right: 10px;
     padding-bottom: 10px;
     text-align: left;
-    font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
     word-spacing: 1px;
+}
+
+.bildetekst {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 6px;
+    padding: 0px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.artikkelbilde {
+    display: block;
+    margin: auto;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.artikkel_bilderamme {
+    display: block;
+    margin: auto;
+    background-color: black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 610px;
+    border-radius: 20px;
 }
 
 .artikler_item h4 {
@@ -47,5 +73,53 @@
 
 .link_artikkel {
     text-decoration: none;
-    color: white;
+    color: #c6bebe;
+    font-size: 10px;
+}
+
+.artikkel_overskrift {
+    text-shadow: 2px 2px black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .artikler_flex {
+        justify-content: center;
+    }
+
+    .artikkelbilde {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .artikkel_bilderamme {
+        display: block;
+        margin: auto;
+        background-color: black;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .bildetekst {
+
+        line-height: 10px;
+
+    }
+
+    sup {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .artikkel_overskrift {
+        font-size: 36px;
+    }
+
 }

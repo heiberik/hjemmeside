@@ -1,18 +1,16 @@
 .prosjekter_mal {
     width: 70ch;
     background-color: black;
-    margin: auto;
     padding: 15px 20px;
     border-radius: 20px;
-    border: solid 1px black;
-    margin-bottom: 50px;
+    border: solid 1px orange;
+    margin: 10px;
 }
 
 
 #siste_prosjekter_mal {
     margin-bottom: 0px;
 }
-
 
 .prosjekter-grid {
     display: flex;
@@ -40,4 +38,14 @@
 
 .prosjekter-item .prosjekt-midt-tekst{
     margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .prosjekter-item img{
+        margin: 10px;
+    }
+
+
+
 }

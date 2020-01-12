@@ -1,40 +1,23 @@
 .banner {
-    max-width: 80vw;
     margin: auto;
-    margin-top: 50px;
-    padding: 25px;
-    padding-bottom: 20px;
+    padding: 45px;
+    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: right;
-    border-bottom: solid 1px black;
-    background-color: #232323;
+    background-color: #101010;
+    border-bottom: solid black 2px;
 }
 
 .banner h1 {
     font-size: 40px;
     font-variant: small-caps;
-    font-family:  sans-serif;
     color: white;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
 }
 
-#banner_eksp {
-    background-position: center;
-}
-
-#banner_eksp h1 {
-
-}
-
-.eksp_bakgrunn_peppa {
-    position: absolute;
-    display: flex;
-    top: 50px;
-    right: 200px;
-}
 
 
 @media screen and (max-width: 768px) {

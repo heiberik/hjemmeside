@@ -4,17 +4,15 @@
     padding: 20px;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: #5e5e5e;
     display: flex;
     justify-content: space-between;
-    border-top: 1px black solid;
-    background-image:linear-gradient(orange,rgb(255,140,0));
+    border-top: 5px orange solid;
+    background-color: white;
 }
 
 .footer p {
     color: black;
 }
-
 
 .boks {
     display: flex;
@@ -47,10 +45,9 @@
 
     .footer {
         max-width: 100vw;
-        margin-top: 0px;
+        margin-top: 80px;
         padding: 10px;
         border-top: 1.5px solid black;
-        background-color: #5e5e5e;
         justify-content: space-between;
     }
 

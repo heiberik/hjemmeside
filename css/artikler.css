@@ -81,6 +81,10 @@
     text-shadow: 2px 2px black;
 }
 
+sup {
+    color: #ddd7d7;
+}
+
 
 
 @media screen and (max-width: 768px) {

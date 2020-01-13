@@ -73,18 +73,27 @@
 
 .link_artikkel {
     text-decoration: none;
-    color: #c6bebe;
+    color: #ddd7d7;
     font-size: 10px;
 }
 
 .artikkel_overskrift {
+    font-size: 55px;
+    font-weight: 600;
     text-shadow: 2px 2px black;
+    padding-bottom: 30px;
+    border-bottom: .1px solid gray;
+}
+
+.artikkel_bilde {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 sup {
     color: #ddd7d7;
 }
-
 
 
 @media screen and (max-width: 768px) {

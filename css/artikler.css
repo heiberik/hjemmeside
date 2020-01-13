@@ -80,7 +80,7 @@
 .artikkel_overskrift {
     font-size: 55px;
     font-weight: 600;
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 4px black;
     padding-bottom: 30px;
     border-bottom: .1px solid gray;
 }

@@ -80,7 +80,7 @@ sup a {
 @media screen and (max-width: 768px) {
 
     html {
-        background-color: #232323;
+        background-color: #101010;
     }
 
     .mal_innhold {
@@ -95,6 +95,7 @@ sup a {
         justify-content: space-between;
         width: 100%;
         padding: 20px;
+        margin: 0px;
 
     }
 

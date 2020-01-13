@@ -102,6 +102,13 @@ sup {
         justify-content: center;
     }
 
+    .artikkel_bilde {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 20px;
+    }
+
     .artikkelbilde {
         display: block;
         margin: auto;

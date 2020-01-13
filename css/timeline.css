@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #161616;
+    background-color: #252525;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -65,9 +65,9 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #161616;
+    border: medium solid #252525;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #161616;
+    border-color: transparent transparent transparent #252525;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -79,9 +79,9 @@
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #161616;
+    border: medium solid #252525;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #161616 transparent transparent;
+    border-color: transparent #252525 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -96,7 +96,7 @@
     background-color: black;
     position: relative;
     border-radius: 6px;
-    background-color: #161616;
+    background-color: #252525;
 }
 
 .content p {

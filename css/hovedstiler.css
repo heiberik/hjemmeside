@@ -83,6 +83,12 @@ sup a {
         background-color: #101010;
     }
 
+    p {
+        line-height: 28px;
+        letter-spacing: 1.5px;
+        word-spacing: 3px;
+    }
+
     .mal_innhold {
         max-width: 100%;
         border: 0px;

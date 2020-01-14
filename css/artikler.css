@@ -105,6 +105,7 @@ sup {
     .artikkel_bilde {
         display: block;
         margin: auto;
+        margin-bottom: 20px;
         width: 100%;
         border-radius: 20px;
     }

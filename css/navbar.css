@@ -5,6 +5,7 @@
     margin: auto;
 }
 
+
 .main-nav {
     list-style-type: none;
     display: none;
@@ -102,15 +103,16 @@
 
     .main-nav {
         display: flex;
-        margin: 8px;
     }
 
     .main-nav li {
-        margin-right: 35px;
-        margin-left: 35px;
+        margin: auto;
+        margin-right: 30px;
+        margin-left: 30px;
         text-align: center;
         border-bottom: solid black 0px;
         background-color: inherit;
+        text-align: center;
     }
 
     .main-nav a{

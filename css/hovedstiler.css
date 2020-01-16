@@ -34,8 +34,8 @@ html {
 
 
 h1 {
-    color: 	white;
-    font-size: 40px;
+    font-size: 72px;
+    color: white;
 }
 
 h2 {
@@ -53,6 +53,26 @@ h4 {
     color: #778899;
     font-size: 18px
 }
+
+h5 {
+    color: white;
+    text-shadow: 1px 1px black;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 26px;
+    border: solid orange 1px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    background-image:linear-gradient(rgb(255,140,0), orange);
+}
+
 
 
 p {

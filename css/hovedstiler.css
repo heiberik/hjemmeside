@@ -59,15 +59,16 @@ h5 {
     text-shadow: 1px 1px black;
     margin: auto;
     text-align: center;
-    margin: 10px;
+    margin: 8px;
     margin-left: 70px;
     margin-right: 70px;
-    font-size: 26px;
-    border: solid orange 1px;
+    font-size: 32px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 8px;
     padding-left: 50px;
     padding-right: 50px;
+
+    border-bottom: 1px solid black;
 
 
     background-image:linear-gradient(rgb(255,140,0), orange);

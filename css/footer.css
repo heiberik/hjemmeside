@@ -6,12 +6,14 @@
     padding-right: 150px;
     display: flex;
     justify-content: space-between;
-    border-top: 5px orange solid;
-    background-color: white;
+    border-top: 1px orange solid;
+    background-image: linear-gradient(to right,#808080, #101010);
 }
 
 .footer p {
     color: black;
+    word-spacing: normal;
+    font-size: 14px;
 }
 
 .boks {

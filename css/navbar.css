@@ -1,8 +1,27 @@
 .navbar {
     font-size: 16px;
     background-color: #2F4F4F;
-    background-image:linear-gradient(orange,rgb(255,140,0));
+    background-color: orange;
     margin: auto;
+}
+
+.nav_logo {
+    margin-left: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-image:linear-gradient(orange,rgb(255,140,0));
+}
+
+
+.nav_logo_tekst_mobil {
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -13,27 +32,24 @@
     padding: 0;
 }
 
+
 .nav_link {
     text-decoration: none;
-    color: #b7aeae;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 3px;
 }
+
 
 .top_li {
     border-top: solid gray 1px;
 }
 
-.nav_logo h1 {
-    font-size: 20px;
-}
-
-.nav_logo {
-    display: flex;
-}
 
 .main-nav li {
     text-align: center;
     border-bottom: solid gray 1px;
-    background-color: black;
 }
 
 .main-nav a {
@@ -59,21 +75,19 @@
 .navbar-toggle {
     position: absolute;
     top: parent;
-    margin-top: auto;
-    margin-top: 5px;
-    margin-bottom: auto;
-    right: 20px;
+    right: 10px;
     cursor: pointer;
-    font-size: 30px;
-
+    font-size: 40px;
 }
 
 .active {
+    background-color: #252525;
     display: block;
-    margin-bottom: -5px;
-    border-bottom: red solid 0px;
 }
 
+.navbar_navn_boks, .navbar_navn_div, .navbar_navn_tekst {
+    display: none;
+}
 
 
 
@@ -86,15 +100,61 @@
     }
 
     .navbar {
+        background-image:linear-gradient(orange,rgb(255,140,0));
         position: sticky;
         overflow: hidden;
-        top: -1px;
+        top: 0px;
         background-color: #2F4F4F;
         z-index: 2;
         display: flex;
         justify-content: center;
-        padding: 0px;
+        height: 55px;
     }
+
+    .navbar_navn_boks {
+        width: 250px;
+        height: 40px;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbar_navn_div {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        background-image:linear-gradient(rgb(255,140,0), orange);
+        white-space: nowrap;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar_navn_tekst {
+        display: flex;
+        margin: auto;
+        vertical-align: middle;
+        color: white;
+        text-shadow: 1px 1px black;
+        font-size: 1.3rem;
+    }
+
+    .nav_transition {
+        background-image:inherit;
+    }
+
+
+
 
     .nav_logo, .navbar-toggle {
         display: none;
@@ -117,11 +177,13 @@
 
     .main-nav a{
         color: black;
+        white-space: nowrap;
         font-weight: bold;
     }
 
     .main-nav a:hover {
         color: white;
+
     }
 
     #nav_gjeldende {

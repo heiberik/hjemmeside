@@ -1,0 +1,93 @@
+.innhold_startside {
+    border-top: 1px solid black;
+    max-height: 80vh;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+.forside_tittel {
+    text-align: center;
+    padding-top: 30vh;
+    padding-bottom: 20px;
+    font-size: 5rem;
+    color: white;
+    font-variant:small-caps;
+}
+
+.forside_undertittel {
+    text-align: center;
+    color: white;
+    padding-bottom: 200px;
+    text-transform: capitalize;
+    font-variant:small-caps;
+    font-weight:bold;
+
+}
+
+.forside_start {
+    background-color: black;
+}
+
+.forside_start {
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    display: flex;
+    transition: 1s;
+    border: solid 1.5px orange;
+    font-size: 0.8rem;
+}
+
+
+
+.forside_start:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.flex_boks_startside {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_item_startside {
+    margin: 20px;
+}
+
+.forside_start_tekst {
+    margin: auto;
+    color: orange;
+    text-shadow: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .forside_tittel {
+        text-align: center;
+        padding-top: 10vh;
+        padding-bottom: 10px;
+        line-height: 3.5rem;
+    }
+
+    .forside_undertittel {
+        text-align: center;
+        color: white;
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        font-variant:small-caps;
+        font-weight:bold;
+
+    }
+
+    .flex_item_startside {
+        margin: 20px;
+    }
+}

@@ -1,13 +1,12 @@
 .footer {
-    max-width: 80vw;
     margin: auto;
     padding: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
     display: flex;
     justify-content: space-between;
     border-top: 1px orange solid;
-    background-image: linear-gradient(to right,#808080, #101010);
+    background-image: linear-gradient(to right, #909090, #505050);
 }
 
 .footer p {

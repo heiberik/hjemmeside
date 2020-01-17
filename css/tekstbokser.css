@@ -4,16 +4,46 @@
     padding-bottom: 100px;
 }
 
+.tekstBoks_forside_first {
+    width: 80ch;
+    margin-top: 100px;
+    padding-right: 10px;
+}
+
+.tekstBoks_forside {
+    width: 80ch;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fyll {
+    margin-top: 1000px;
+}
+
 .innhold {
     display: flex;
     justify-content: center;
-    padding: 10px;
-
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
          -o-animation: fadein 1.5s; /* Opera < 12.1 */
             animation: fadein 1.5s;
+}
+
+.les_mer {
+    display: none;
+}
+
+.toggle_lesMer {
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+    border: 1.0px solid orange;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
 }
 
 @keyframes fadein {
@@ -45,7 +75,27 @@
 
 @media screen and (max-width: 768px) {
     .tekstBoks {
+        margin-top: 20px;
         width: 70ch;
         padding: 5px;
+    }
+
+    .tekstBoks_forside_first {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .tekstBoks_forside {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .innhold {
+        padding: 15px;
+    }
+
+    .fyll {
+        margin-top: 0px;
     }
 }

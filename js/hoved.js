@@ -17,7 +17,6 @@ $(function() {
     var klar = true;
     var breakpoint = 50;
     var mobil = window.matchMedia('(max-width: 767px)').matches;
-    console.log(mobil);
 
 	$(window).scroll(function scrollingFunc(){
 

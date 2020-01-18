@@ -1,68 +1,60 @@
 let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
-
 let navNavn = document.getElementById('nav_navn');
+
 
 navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('active');
 });
 
 
+var div = $('.navbar_navn_div');
+div.css("cursor", "pointer");
+div.click(function() {
+    window.location = "/";
+});
+
 
 $(function() {
 
     var boks = $('.navbar_navn_boks');
-    var div = $('.navbar_navn_div');
     var tekst = $('.navbar_navn_tekst');
-    var klar = true;
-    var breakpoint = 50;
+
+    var prosjekter = $('#tekst_prosjekter');
+    var forside = $('#tekst_forside');
+    var cv = $('#tekst_cv');
+    var artikler = $('#tekst_artikler');
+
+    var topp = true;
+    var breakpoint = 100;
     var mobil = window.matchMedia('(max-width: 767px)').matches;
 
 	$(window).scroll(function scrollingFunc(){
+		if ($(window).scrollTop() <= breakpoint && !topp && !mobil){
+            topp = true;
+            tekst.fadeOut(function() {
+              tekst.text("Henrik Heiberg")
+          }).fadeIn(300);
 
-		if ($(window).scrollTop() <= breakpoint && klar && !mobil){
-            klar = false;
-            breakpoint = 150;
-            boks.show(600, function(){
-                div.fadeIn(400, function(){
-                    tekst.fadeIn(400, function(){
-                        klar = true;
-                    });
-                });
-            })
+          div.off();
+          div.click(function() {
+              window.location = "/";
+          });
 
-        } else if ($(window).scrollTop() <= breakpoint && !klar && !mobil) {
-            breakpoint = 150;
-            klar = false;
-            boks.show(0, function(){
-                div.fadeIn(0, function(){
-                    tekst.fadeIn(0, function(){
-                        klar = true;
-                    });
-                });
-            })
+      } else if ($(window).scrollTop() > breakpoint && topp && !mobil) {
+            topp = false;
+            tekst.fadeOut(function() {
+                prosjekter.text("Prosjekter")
+                forside.text("Forside")
+                cv.text("Om meg")
+                artikler.text("Artikler")
+            }).fadeIn(300);
 
-        } else if ($(window).scrollTop() > breakpoint && klar && !mobil) {
-            breakpoint = 25;
-            klar = false;
-            tekst.fadeOut(100, function(){
-                div.fadeOut(100, function(){
-                    boks.hide(600, function(){
-                        klar = true;
-                    });
-                });
+            div.off();
+            div.click(function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' })
             });
 
-        } else if ($(window).scrollTop() > breakpoint && !klar && !mobil) {
-            breakpoint = 25;
-            klar = false;
-            tekst.fadeOut(0, function(){
-                div.fadeOut(0, function(){
-                    boks.hide(0, function(){
-                        klar = true;
-                    });
-                });
-            });
-		}
+        }
 	});
 });

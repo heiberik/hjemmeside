@@ -8,11 +8,17 @@
             animation: fadein 1.5s;
 }
 
+.linja {
+    margin: auto;
+    width: 45vw;
+    background-color: red;
+}
+
 .forside_tittel {
     text-align: center;
     padding-top: 30vh;
     padding-bottom: 20px;
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
     font-variant:small-caps;
 }
@@ -20,6 +26,7 @@
 .forside_undertittel {
     text-align: center;
     color: white;
+    padding-top: 20px;
     padding-bottom: 200px;
     text-transform: capitalize;
     font-variant:small-caps;
@@ -46,7 +53,7 @@
 
 
 .forside_start:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s;
 }
 
@@ -71,9 +78,10 @@
 
     .forside_tittel {
         text-align: center;
-        padding-top: 10vh;
-        padding-bottom: 10px;
-        line-height: 3.5rem;
+        padding-top: 8vh;
+        padding-bottom: 15px;
+        line-height: 3.7rem;
+        font-size: 5.2rem;
     }
 
     .forside_undertittel {
@@ -87,7 +95,14 @@
 
     }
 
+    .linja {
+        margin: auto;
+        width: 80vw;
+        background-color: red;
+    }
+
     .flex_item_startside {
         margin: 20px;
+        margin-bottom: 15px;
     }
 }

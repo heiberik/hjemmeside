@@ -2,18 +2,19 @@ let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
 let navNavn = document.getElementById('nav_navn');
 
-
+// liste-ikon for mobil. navbar.
 navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('active');
 });
 
 
+// Metoder for navbar tekst for !mobil. bytter tekst og bytter link til tekst
+// basert på scrolling.
 var div = $('.navbar_navn_div');
 div.css("cursor", "pointer");
 div.click(function() {
     window.location = "/";
 });
-
 
 $(function() {
 
@@ -44,10 +45,10 @@ $(function() {
       } else if ($(window).scrollTop() > breakpoint && topp && !mobil) {
             topp = false;
             tekst.fadeOut(function() {
+                tekst.text("Artikler")
                 prosjekter.text("Prosjekter")
                 forside.text("Forside")
                 cv.text("Om meg")
-                artikler.text("Artikler")
             }).fadeIn(300);
 
             div.off();

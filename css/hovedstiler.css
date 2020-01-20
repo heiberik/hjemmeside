@@ -7,6 +7,8 @@ html {
     height: 100%;
     background-color: black;
     overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .mal_innhold {

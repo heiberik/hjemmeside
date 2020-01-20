@@ -10,7 +10,7 @@
     background-color: black;
     background-image: linear-gradient(#202020, #000000);
     border: 0;
-    box-shadow: 3px 3px 12px 0 gray;
+    box-shadow: 4px 4px 12px 0 black;
     border-radius: 25px;
     margin: 10px;
 }
@@ -49,13 +49,13 @@
     font-weight: 600;
     text-shadow: 1px 1px black;
     background-image: linear-gradient(to right, #202020, #404040, #202020);
-    border-top: solid 1px black;
+    border-top: solid 1px white;
     border-bottom: solid 1px white;
     transition: 1s;
 }
 
 .artikler_item_les a:hover {
-    border-top: solid 1px black;
+    border-top: solid 1px orange;
     border-bottom: solid 1px orange;
 }
 
@@ -79,24 +79,24 @@
     line-height: 20px;
     letter-spacing: 1px;
     word-spacing: 1px;
+    color: white;
 }
 
 .artikkelbilde {
     display: block;
     margin: auto;
     width: 600px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .artikkel_bilderamme {
     display: block;
     margin: auto;
-    background-color: black;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 610px;
+    background-color: #333;
+    width: 600px;
     border-radius: 20px;
+    box-shadow: 5px 5px 20px 2px black;
 }
 
 
@@ -118,6 +118,7 @@
     display: block;
     margin: auto;
     margin-bottom: 50px;
+    box-shadow: 10px 10px 20px 1px black;
 }
 
 sup {

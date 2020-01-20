@@ -41,11 +41,11 @@
 }
 
 .linja {
-    height: .1px;
+    height: 1px;
     background-color: white;
+    color: white;
     margin: auto;
     width: 39rem;
-    color: white;
     margin-top: 4vh;
     margin-bottom: 4vh;
 }
@@ -58,8 +58,7 @@
     line-height: 7.4rem;
     color: white;
     font-variant:small-caps;
-
-    background-color: #101010;
+    background-color: #333;
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,11 +69,10 @@
 
 .forside_undertittel {
     text-align: center;
-    color: white;
+    color: orange;
     font-variant:small-caps;
-    margin-top: 0vh;
-    font-size: 1.5rem;
-    word-spacing: .5rem;
+    margin-top: 5vh;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -96,32 +94,32 @@
     display: flex;
     border-radius: 20px;
     height: 50px;
-    transition: .5s;
+    transition: 1s;
     margin: 10px;
-    box-shadow: 1px 1px 5px 0 gray;
+    box-shadow: 2px 2px 5px 0 black;
 }
 
 .forside_link:hover{
-    box-shadow: 1px 1px 5px 0 white;
+    box-shadow: 2px 2px 5px 0 orange;
 }
 
 .forside_link_tekst {
     font-size: 1rem;
-    color: orange;
+    color: white;
     margin: auto;
 }
 
 #link_forside{
-    background: linear-gradient(to right, #050505, #151515);
+    background: linear-gradient(#404040, #202020);
 }
 #link_cv{
-    background: linear-gradient(to right, #151515, #303030);
+    background: linear-gradient(#404040, #202020);
 }
 #link_artikler{
-    background: linear-gradient(to right, #303030, #151515);
+    background: linear-gradient(#404040, #202020);
 }
 #link_prosjekter{
-    background: linear-gradient(to right, #151515, #050505);
+    background: linear-gradient(#404040, #202020);
 }
 
 
@@ -131,12 +129,12 @@
     .forside_undertittel_mobil {
         display: block;
         text-align: center;
-        color: white;
+        color: orange;
         margin: auto;
         text-align: center;
         margin-top: 2vh;
         margin-bottom: 0vh;
-        font-size: 14px;
+        font-size: 16px;
         text-transform: capitalize;
         font-variant:small-caps;
         font-weight:bold;
@@ -193,15 +191,15 @@
     }
 
     #link_forside{
-        background: linear-gradient(#050505, #151515);
+        background: linear-gradient(#404040, #202020);
     }
     #link_cv{
-        background: linear-gradient(#151515, #303030);
+        background: linear-gradient(#404040, #202020);
     }
     #link_artikler{
-        background: linear-gradient(#303030, #454545);
+        background: linear-gradient(#404040, #202020);
     }
     #link_prosjekter{
-        background: linear-gradient(#454545, #606060);
+        background: linear-gradient(#404040, #202020);
     }
 }

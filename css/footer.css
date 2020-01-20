@@ -5,8 +5,13 @@
     padding-right: 250px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px orange solid;
-    background-image: linear-gradient(to right, #909090, #505050);
+    border-top: 1px gray solid;
+    background-color: #666;
+    transition: 1s;
+}
+
+.footer:hover {
+    background-color: #999;
 }
 
 .footer p {

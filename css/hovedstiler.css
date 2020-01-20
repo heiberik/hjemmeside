@@ -5,7 +5,7 @@
 
 html {
     height: 100%;
-    background-color: black;
+    background-color: #222;
     overflow-y: scroll;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,7 +13,7 @@ html {
 
 .mal_innhold {
     max-width: 80vw;
-    background-color: black;
+    background-color: #222;
     margin: auto;
     border-bottom: 0px;
 }
@@ -110,7 +110,7 @@ sup a {
 @media screen and (max-width: 768px) {
 
     html {
-        background-color: black;
+        background-color: #222;
     }
 
     p {

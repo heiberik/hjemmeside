@@ -35,8 +35,10 @@
 }
 
 .toggle_lesMer {
-    background-color: black;
+    background-color: #222;
     border: none;
+    padding: 0px;
+    margin: 0px;
     color: white;
     font-size: 1rem;
 }

@@ -130,7 +130,7 @@
         padding-left: 50px;
         padding-right: 50px;
 
-        background-image:linear-gradient(rgb(255,140,0), orange);
+        background-image:linear-gradient(rgb(255,140,0),orange);
         white-space: nowrap;
 
         display: flex;

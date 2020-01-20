@@ -35,13 +35,8 @@
 }
 
 .toggle_lesMer {
-    margin-bottom: 0px;
-    padding: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
     background-color: black;
-    border: 1.0px solid orange;
-    border-radius: 10px;
+    border: none;
     color: white;
     font-size: 1rem;
 }

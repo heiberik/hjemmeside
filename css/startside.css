@@ -41,13 +41,13 @@
 }
 
 .linja {
-    height: 1px;
+    height: .1px;
     background-color: white;
     margin: auto;
     width: 39rem;
     color: white;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .forside_tittel {
@@ -59,7 +59,6 @@
     color: white;
     font-variant:small-caps;
 
-    background: url("/bilder/forside1.jpg");
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;

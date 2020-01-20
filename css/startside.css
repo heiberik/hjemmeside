@@ -55,13 +55,11 @@
     width: 50rem;
     margin: auto;
     font-size: 10rem;
-    line-height: 7.5rem;
+    line-height: 7.4rem;
     color: white;
     font-variant:small-caps;
 
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: #101010;
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -69,15 +67,15 @@
     -webkit-text-stroke-color: white;
 }
 
+
 .forside_undertittel {
     text-align: center;
     color: white;
-    text-transform: capitalize;
     font-variant:small-caps;
-    font-weight:bold;
-    margin-top: 2vh;
+    margin-top: 8vh;
     font-size: 1.5rem;
     word-spacing: .5rem;
+    font-weight: 500;
 }
 
 
@@ -86,7 +84,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 0vh;
     width: 45vw;
 }
 
@@ -96,15 +94,15 @@
 
 .forside_link {
     display: flex;
-    border: solid black 1px;
     border-radius: 20px;
-    height: 5vh;
+    height: 50px;
     transition: .5s;
-    margin: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 0 gray;
 }
 
 .forside_link:hover{
-    border: solid white 1px;
+    box-shadow: 1px 1px 5px 0 white;
 }
 
 .forside_link_tekst {
@@ -186,7 +184,6 @@
         background-size: cover;
         display: flex;
         transition: 1s;
-        border: solid .1rem white;
         font-size: 0.8rem;
         margin: 10px;
     }

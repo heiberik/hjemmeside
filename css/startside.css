@@ -46,8 +46,8 @@
     margin: auto;
     width: 39rem;
     color: white;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .forside_tittel {
@@ -72,7 +72,7 @@
     text-align: center;
     color: white;
     font-variant:small-caps;
-    margin-top: 8vh;
+    margin-top: 0vh;
     font-size: 1.5rem;
     word-spacing: .5rem;
     font-weight: 500;
@@ -84,8 +84,8 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 0vh;
-    width: 45vw;
+    margin-top: 20vh;
+    width: 40rem;
 }
 
 .flex_item_startside {
@@ -167,6 +167,10 @@
 
     .flex_boks_startside {
         margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .flex_item_startside {

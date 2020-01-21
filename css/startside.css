@@ -37,7 +37,7 @@
 
 .forside_tittel_boks {
     margin: auto;
-    margin-top: 22vh;
+    margin-top: 25vh;
 }
 
 .linja {
@@ -71,8 +71,8 @@
     text-align: center;
     color: orange;
     font-variant:small-caps;
-    margin-top: 5vh;
-    font-size: 2rem;
+    margin-top: 3vh;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
@@ -92,7 +92,7 @@
 
 .forside_link {
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
     height: 50px;
     transition: 1s;
     margin: 10px;

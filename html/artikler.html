@@ -18,6 +18,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/timeline.css">
 		<link rel="stylesheet" type="text/css" href="../css/artikler.css">
 		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/input_range.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8"/>
 		<html lang="no">
 		<meta name="description" content="Mine artikler om stort og smått">
@@ -28,23 +30,17 @@
 
 		<nav class="navbar">
 			<span class="navbar-toggle" id="js-navbar-toggle">
-            	<img src="../bilder/list.png" alt="list" height="25px">
+            	<i class="fa fa-bars"></i>
         	</span>
 
-			<div class="nav_logo" onclick="location.href='../index.html';" style="cursor: pointer;">
-		 		<h5 class="nav_logo_tekst_mobil">Henrik Heiberg</h5>
-		 	</div>
-
 			<div class="navbar_navn_boks">
+				<img class="nav_bilde" src="../bilder/profil.jfif" alt="profil">
 				<div id="tekst_artikler_div" class="navbar_navn_div">
 					<h5 id="tekst_artikler" class="navbar_navn_tekst">Henrik Heiberg</h5>
 				</div>
 			</div>
 
 	        <ul class="main-nav" id="js-menu">
-				<li class="top_li">
-	                <a class="nav_link" href="forside.html">Forside</a>
-	            </li>
 				<li>
 	                <a class="nav_link" href="cv.html">Om meg</a>
 	            </li>
@@ -72,69 +68,108 @@
 			</div>
 		</div>
 
+		<section class="gallery">
+			<div class="artikler-container">
 
-		<div class="mal_innhold">
-			<div class="innhold">
-				<div class="artikler_flex">
+			    <div class="toolbar">
+			      	<div class="search-wrapper">
+			        	<input type="search" placeholder="Søk etter artikkel">
+			        	<div class="counter">Antall artikler: <span>12</span></div>
+			      	</div>
 
-					<div class="artikler_item">
-						<img src="../bilder/space.jpg" alt="universet">
-						<h4>Mine yndlingsfakta om universet</h4>
-						<p>
-							Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
-							Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
-							om universet!
-						</p>
-						<div class="artikler_item_les">
-							<a href="artikler/topp-facts-universet.html">Les Artikkel</a>
-						</div>
-					</div>
+			      	<ul class="view-options">
+				        <li class="zoom">
+				          <input type="range" min="180" max="320" value="250">
+				        </li>
+				        <li class="show-grid active">
+				          <button disabled>
+				            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/grid-view.svg" alt="grid view">
+				          </button>
+				        </li>
+				        <li class="show-list">
+				          <button>
+				            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/list-view.svg" alt="list view">
+				          </button>
+				      </li>
+			      </ul>
+			   </div>
 
-				</div>
-			</div>
-		</div>
 
 
-		<div class="mal_innhold">
-			<section class="innhold">
-				<div class="fyll">
+			  	<ol class="image-list grid-view">
 
-				</div>
+					<li onclick="location.href='artikler/topp-facts-universet.html';" style="cursor: pointer;"target="_blank" rel="noreferrer">
+			        	<figure>
+			          		<img src="../bilder/space.jpg" alt="">
+			          		<figcaption>
+							  	<h2>Mine yndlingsfakta om universet</h2>
+					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+								om universet!</a></p>
+			          		</figcaption>
+			        	</figure>
+			      	</li>
+
+					<li onclick="location.href='artikler/topp-facts-universet.html';" style="cursor: pointer;"target="_blank" rel="noreferrer">
+			        	<figure>
+			          		<img src="../bilder/space.jpg" alt="">
+			          		<figcaption>
+							  	<h2>Mine yndlingsfakta om universet</h2>
+					            <p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+								om universet!</a></p>
+			          		</figcaption>
+			        	</figure>
+			      	</li>
+					
+					<li onclick="location.href='artikler/topp-facts-universet.html';" style="cursor: pointer;"target="_blank" rel="noreferrer">
+						<figure>
+							<img src="../bilder/space.jpg" alt="">
+							<figcaption>
+								<h2>Mine yndlingsfakta om universet</h2>
+								<p>Hva skjer når Melkeveien kolliderer med galaksen Andromeda?
+								Hvorfor har vi istid på jorden? Sjekk ut mine yndlingsfakta
+								om universet!</a></p>
+							</figcaption>
+						</figure>
+					</li>
+
+
+
+
+			    </ol>
+			  </div>
 			</section>
-		</div>
 
 
 		<footer class="footer">
 			<div class="kontaktinfo">
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/man.png" alt="man" height="20">
+					<a class="fa fa-user" style="font-size:26px;"></a>
 					<p>Henrik Heiberg</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/email.png" alt="email" height="20">
+					<a class="fa fa-inbox" style="font-size:26px;"></a>
 					<p>heiberik@hotmail.com</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/location.png" alt="location" height="20">
+					<a class="fa fa-compass" style="font-size:26px;"></a>
 					<p>Oslo, Norway</p>
 				</div>
 			</div>
 
 			<div class="logoer_footer">
-				<a href="https://github.com/heiberik" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/github-logo.png" alt="github" height="45">
-				</a>
-
-				<a href="https://www.linkedin.com/in/heiberik/" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/linkedin-logo.png" alt="linkedin" height="45">
-				</a>
+				<a href="https://github.com/heiberik" class="fa fa-github" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
+				<a href="https://www.linkedin.com/in/heiberik/" class="fa fa-linkedin" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
 			</div>
 		</footer>
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="../js/hoved.js"></script>
 		<script src="../js/tekst.js"></script>
+		<script src="../js/artikler.js"></script>
 	</body>
 </html>

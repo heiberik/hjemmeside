@@ -20,6 +20,15 @@
     margin-top: 1000px;
 }
 
+.cv_profilbilde {
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 4px black;
+    margin: auto;
+    display: block;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
 .innhold {
     display: flex;
     justify-content: center;

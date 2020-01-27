@@ -1,12 +1,14 @@
 .innhold_startside {
-    border-top: 1px solid black;
-    max-height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
+
 }
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -31,175 +33,94 @@
     to   { opacity: 1; }
 }
 
-.forside_undertittel_mobil {
-    display: none;
-}
 
-.forside_tittel_boks {
-    margin: auto;
-    margin-top: 25vh;
-}
-
-.linja {
-    height: 1px;
-    background-color: white;
-    color: white;
-    margin: auto;
-    width: 39rem;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-}
 
 .forside_tittel {
-    text-align: center;
-    width: 50rem;
+    text-align: left;
+    width: 700px;
     margin: auto;
-    font-size: 10rem;
-    line-height: 7.4rem;
-    color: white;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.4);
     font-variant:small-caps;
-    background-color: #333;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 50px;
+    font-family: Georgia, serif;
+    line-height: 72px;
+    text-align: center;
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    text-shadow: 3px 3px black;
+
 }
 
 
-.forside_undertittel {
-    text-align: center;
-    color: orange;
-    font-variant:small-caps;
-    margin-top: 3vh;
-    font-size: 2.2rem;
+.forside_tekst {
+    border-top: solid rgba(255, 165, 0, 0.1) 1px;
+    padding: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    width: 520px;
+
+    line-height: 48px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
     font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Georgia, serif;
+
+    text-shadow: 2px 2px black;
+}
+
+.forside_tekst a {
+    color: orange;
+    text-decoration: none;
+    background: inherit;
+}
+
+mark {
+    background-color: inherit;
+    color: orange;
 }
 
 
-.flex_boks_startside {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 20vh;
-    width: 40rem;
+.mark-tittel {
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.flex_item_startside {
-    flex: 1;
-}
 
-.forside_link {
-    display: flex;
-    border-radius: 10px;
-    height: 50px;
-    transition: 1s;
-    margin: 10px;
-    box-shadow: 2px 2px 5px 0 black;
-}
-
-.forside_link:hover{
-    box-shadow: 2px 2px 5px 0 orange;
-}
-
-.forside_link_tekst {
-    font-size: 1rem;
-    color: white;
-    margin: auto;
-}
-
-#link_forside{
-    background: linear-gradient(#404040, #202020);
-}
-#link_cv{
-    background: linear-gradient(#404040, #202020);
-}
-#link_artikler{
-    background: linear-gradient(#404040, #202020);
-}
-#link_prosjekter{
-    background: linear-gradient(#404040, #202020);
-}
 
 
 
 @media screen and (max-width: 768px) {
 
-    .forside_undertittel_mobil {
-        display: block;
-        text-align: center;
-        color: orange;
-        margin: auto;
-        text-align: center;
-        margin-top: 2vh;
-        margin-bottom: 0vh;
-        font-size: 16px;
-        text-transform: capitalize;
-        font-variant:small-caps;
-        font-weight:bold;
-    }
 
-    .linja {
-        width: 80vw;
-    }
-
-    .forside_tittel_boks {
-        margin: auto;
-        margin-top: 10vh;
-    }
 
     .forside_tittel {
-        text-align: center;
-        padding-top: 0vh;
-        padding-bottom: 15px;
-        line-height: 3.7rem;
-        font-size: 5.2rem;
-        width: 100%;
-        word-spacing: 0px;;
-    }
-
-    .forside_undertittel {
-        display: none;
-    }
-
-    .flex_boks_startside {
-        margin-top: 5vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .flex_item_startside {
-        margin: 20px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-
-    .forside_link {
-        background-color: #151515;
         margin: auto;
-        width: 8rem;
-        height: 50px;
-        border-radius: 100px;
-        background-size: cover;
-        display: flex;
-        transition: 1s;
-        font-size: 0.8rem;
-        margin: 10px;
+        line-height: 2rem;
+        font-size: 2rem;
+        width: auto;
+        margin: 20px;
+        padding: 0px;
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 10px;
     }
 
-    #link_forside{
-        background: linear-gradient(#404040, #202020);
+    .forside_tekst {
+        width: auto;
+        max-width: 350px;
+        padding: 0px;
+        margin: 20px;
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: auto;
     }
-    #link_cv{
-        background: linear-gradient(#404040, #202020);
-    }
-    #link_artikler{
-        background: linear-gradient(#404040, #202020);
-    }
-    #link_prosjekter{
-        background: linear-gradient(#404040, #202020);
-    }
+
 }

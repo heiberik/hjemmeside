@@ -18,6 +18,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/banner.css">
 		<link rel="stylesheet" type="text/css" href="../css/timeline.css">
 		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/artikler.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8"/>
 		<meta name="description" content="Om meg, Henrik Heiberg. CV.">
 		<meta name="keywords" content="Heiberik, IFI, Henrik Heiberg, Henrik, Heiberg, cv, om meg">
@@ -27,23 +29,17 @@
 
 		<nav class="navbar">
 			<span class="navbar-toggle" id="js-navbar-toggle">
-            	<img src="../bilder/list.png" alt="list" height="25px">
+            	<i class="fa fa-bars"></i>
         	</span>
 
-			<div class="nav_logo" onclick="location.href='../index.html';" style="cursor: pointer;">
-		 		<h5 class="nav_logo_tekst_mobil">Henrik Heiberg</h5>
-		 	</div>
-
 			<div class="navbar_navn_boks">
+				<img class="nav_bilde" src="../bilder/profil.jfif" alt="profil">
 				<div id="tekst_cv_div" class="navbar_navn_div">
 					<h5 id="tekst_cv" class="navbar_navn_tekst">Henrik Heiberg</h5>
 				</div>
 			</div>
 
 	        <ul class="main-nav" id="js-menu">
-				<li class="top_li">
-	                <a class="nav_link" href="forside.html">Forside</a>
-	            </li>
 				<li>
 	                <a class="nav_link" href="cv.html">Om meg</a>
 	            </li>
@@ -61,13 +57,17 @@
 			<section class="innhold">
 				<div class="tekstBoks">
 
-	                <h2> Hvem er jeg? </h2>
+					<img class="cv_profilbilde" src="../bilder/profil.jfif" alt="profil">
+
+					<h2>Hvem er jeg?</h2>
 					<p>
 	                    Skal vi se. Jeg heter Henrik. I skrivende stund er jeg en 27 år gammel informatikkstudent
-	                    ved Universitetet i Oslo. Der går jeg på linjen programmering og systemarkitektur. På fritiden
-	                    liker jeg å trene, høre på musikk, bedrive GAMEING og lære nye ting om stort og smått.
-	                    Jeg har alltid vært glad i å bygge og sette sammen ulike duppeditter.
+	                    ved Universitetet i Oslo. Der går jeg på linjen programmering og systemarkitektur.
+						På fritiden liker jeg å trene, høre på musikk, bedrive GAMEING og
+						lære nye ting om stort og smått.
+						Jeg har alltid vært glad i å bygge og sette sammen ulike duppeditter.
 						<br><br>
+
 
 						Som for så mange andre var
 	                    nok gateway-druget lego. Så hadde jeg den obligatoriske fasen med å ødelegge
@@ -78,13 +78,16 @@
 	                    <br><br>
 					</p>
 
-					<h2> Master i rettsvitenskap! </h2>
 
+
+					<div class="space_br"></div>
+					<h2> Master i rettsvitenskap! </h2>
 					<p>
+
 	                    Til tross for de overnevnte interesser endte jeg opp på jusstudiet etter videregående. Jeg hadde ingen
 	                    anelse om hva jeg ønsket å bli og mulighetene var kanskje for mange.
 	                    Jeg sover heller ikke nevneverdig dårlig av å innrømme at status og prestisje var et vektig argument i valg av studie
-	                    for 19-år gamle Henrik. Saksøk meg.
+	                    for 19-år gamle Henrik.
 	                    <br><br>
 
 	                    Likevel var det nok alltid noe som trakk meg i retning av innovasjon
@@ -103,6 +106,7 @@
 	                    <br><br>
 					</p>
 
+					<div class="space_br"></div>
 					<h2> Bachelor i informatikk! </h2>
 
 					<p>
@@ -225,6 +229,7 @@
 						<br><br>
 					</p>
 
+					<div class="space_br"></div>
 	                <h2> Veien videre? </h2>
 					<p>
 						Nå har jeg et halvt år igjen av bacheloren.
@@ -234,6 +239,7 @@
 						å legge det bort til fordel for rettsvitenskapen.
 						Forhåpentligvis får jeg jobbet med både utvikling og juss!
 					</p>
+					<div class="space_br"></div>
 				</div>
 			</section>
 
@@ -243,29 +249,24 @@
 
 			<div class="kontaktinfo">
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/man.png" alt="man" height="20">
+					<a class="fa fa-user" style="font-size:26px;"></a>
 					<p>Henrik Heiberg</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/email.png" alt="email" height="20">
+					<a class="fa fa-inbox" style="font-size:26px;"></a>
 					<p>heiberik@hotmail.com</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/location.png" alt="location" height="20">
+					<a class="fa fa-compass" style="font-size:26px;"></a>
 					<p>Oslo, Norway</p>
 				</div>
 			</div>
 
 			<div class="logoer_footer">
-				<a href="https://github.com/heiberik" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/github-logo.png" alt="github" height="45">
-				</a>
-
-				<a href="https://www.linkedin.com/in/heiberik/" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/linkedin-logo.png" alt="linkedin" height="45">
-				</a>
+				<a href="https://github.com/heiberik" class="fa fa-github" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
+				<a href="https://www.linkedin.com/in/heiberik/" class="fa fa-linkedin" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
 			</div>
 		</footer>
 

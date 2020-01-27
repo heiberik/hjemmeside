@@ -9,45 +9,112 @@
     margin: 20px;
 }
 
-
 #siste_prosjekter_mal {
     margin-bottom: 0px;
 }
 
 .prosjekter-grid {
+    margin: 60px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+    padding-top: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.prosjekter-grid-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: linear-gradient( #2b2b2b, #000);
+    border-bottom: .1rem solid rgba(255, 165, 0, 0.3);
+}
+
+.prosjekter-scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+
 }
 
 
-.prosjekter-item a {
+.prosjekter-row a {
     text-decoration: none;
+}
+
+.prosjekter-row img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.prosjekter-grid-top h2 {
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.prosjekter-item {
+    margin-right: 10px;
 }
 
 .prosjekter-item p {
     font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
     text-align: left;
     font-weight: 500;
 }
 
-
-.prosjekter-item img {
-    margin-bottom: -10px;
+.prosjekter-row .fa {
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 1px 5px 0px black;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 5px;
+    padding: 6px;
 }
 
-.prosjekter-item .prosjekt-midt-tekst{
-    margin-left: 20px;
-}
 
 @media screen and (max-width: 768px) {
 
-    .prosjekter-item img{
-        margin: 10px;
+    .prosjekter-row {
+        display: flex;
     }
 
+    .prosjekter-row img{
+        margin-left: 10px;
+    }
 
+    .prosjekter-scale {
+        transition: all 100ms;
+    }
+
+    .prosjekter-grid {
+        margin: 35px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        padding-top: 20px;
+        transition: all 300ms ease-in-out;
+    }
+
+    .prosjekter-grid-top {
+        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background: linear-gradient(#111, #2b2b2b);
+        border-bottom: .1rem solid rgba(255, 165, 0, 0.3);
+    }
 
 }

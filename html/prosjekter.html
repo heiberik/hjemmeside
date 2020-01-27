@@ -19,6 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/timeline.css">
 		<link rel="stylesheet" type="text/css" href="../css/footer.css">
 		<link rel="stylesheet" type="text/css" href="../css/prosjekter.css">
+		<link rel="stylesheet" type="text/css" href="../css/carousel.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8"/>
 		<html lang="no">
 		<meta name="description" content="En samling av mine prosjekter">
@@ -30,23 +32,17 @@
 
 		<nav class="navbar">
 			<span class="navbar-toggle" id="js-navbar-toggle">
-            	<img src="../bilder/list.png" alt="list" height="25px">
+            	<i class="fa fa-bars"></i>
         	</span>
 
-			<div class="nav_logo" onclick="location.href='../index.html';" style="cursor: pointer;">
-		 		<h5 class="nav_logo_tekst_mobil">Henrik Heiberg</h5>
-		 	</div>
-
 			<div class="navbar_navn_boks">
+				<img class="nav_bilde" src="../bilder/profil.jfif" alt="profil">
 				<div id="tekst_prosjekter_div" class="navbar_navn_div">
 					<h5 id="tekst_prosjekter" class="navbar_navn_tekst">Henrik Heiberg</h5>
 				</div>
 			</div>
 
 	        <ul class="main-nav" id="js-menu">
-				<li class="top_li">
-	                <a class="nav_link" href="forside.html">Forside</a>
-	            </li>
 				<li>
 	                <a class="nav_link" href="cv.html">Om meg</a>
 	            </li>
@@ -78,160 +74,137 @@
 			</div>
 		</div>
 
-
 		<div class="mal_innhold">
 			<div class="innhold">
-				<div class="prosjekter_mal">
 
-					<div class="prosjekter-grid">
-						<div class="prosjekter-item">
-							<h2>LibApp</h2>
-						</div>
-						<div class="prosjekter-item">
-							<a href="https://github.com/heiberik/LibApp" target="_blank" rel="noreferrer">
-							  	<img class="footer_logo_img" src="../bilder/git2.png" alt="github" height="40">
-							</a>
-							<a href="https://libapp-heiberik.herokuapp.com/" target="_blank" rel="noreferrer">
-							  	<img class="footer_logo_img" src="../bilder/site2.png" alt="side" height="40">
-							</a>
+				<div class="items">
+
+					<div class="item active">
+						<div class="prosjekter-scale">
+							<div class="prosjekter-grid-top">
+								<h2>Hjemmeside</h2>
+								<div class="prosjekter-row">
+									<a href="https://github.com/heiberik/heiberik.github.io" class="fa fa-github" style="font-size:30px;" target="_blank" rel="noreferrer"></a>
+									<a href="https://heiberik.com" class="fa fa-link" style="font-size:30px;" target="_blank" rel="noreferrer"></a>
+								</div>
+							</div>
+							<div class="prosjekter-grid">
+								<div class="prosjekter-item">
+									<p>Stack:</p>
+									<p>Host:</p>
+									<p>Om:</p>
+								</div>
+								<div class="prosjekter-item">
+									<p>html/css/js</p>
+									<p>GitHub pages</p>
+									<p>
+										Statisk webapplikasjon. Et pågående prosjekt for å
+										lære grunnleggende webutvikling og forbedre
+										skriveferdigheter.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="prosjekter-grid" target="_blank">
-						<div class="prosjekter-item">
-							<p>Stack:</p>
-							<p>Host:</p>
-							<p>Om:</p>
+
+					<div class="item next">
+						<div class="prosjekter-scale">
+							<div class="prosjekter-grid-top">
+								<h2>LibApp</h2>
+								<div class="prosjekter-row">
+									<a href="https://github.com/heiberik/LibApp" class="fa fa-github" style="font-size:30px;" target="_blank" rel="noreferrer"></a>
+									<a href="https://libapp-heiberik.herokuapp.com/" class="fa fa-link" style="font-size:30px;" target="_blank" rel="noreferrer"></a>
+								</div>
+							</div>
+							<div class="prosjekter-grid">
+								<div class="prosjekter-item">
+									<p>Stack:</p>
+									<p>Host:</p>
+									<p>Om:</p>
+								</div>
+								<div class="prosjekter-item">
+									<p>Node.js/Express/MongoDB</p>
+									<p>Heroku</p>
+									<p>Min første dynamiske webapplikasjon. Oversikt over forfattere og bøker. Frontend + backend. Database.</p>
+								</div>
+							</div>
 						</div>
-						<div class="prosjekter-item">
-							<p class="prosjekt-midt-tekst">Node.js/Express/MongoDB</p>
-							<p class="prosjekt-midt-tekst">Heroku</p>
-							<p class="prosjekt-midt-tekst">
-								Min første dynamiske webapplikasjon. Oversikt over
-								forfattere og bøker. Frontend + backend. Database.
-							</p>
+					</div>
+
+					<div class="item prev">
+						<div class="prosjekter-scale">
+							<div class="prosjekter-grid-top">
+								<h2>MVP Pattern</h2>
+								<div class="prosjekter-row">
+									<a href="https://github.com/heiberik/TemplateMVP" class="fa fa-github" style="font-size:30px;" target="_blank" rel="noreferrer"></a>
+								</div>
+							</div>
+							<div class="prosjekter-grid">
+								<div class="prosjekter-item">
+									<p>Stack:</p>
+									<p>Host:</p>
+									<p>Om:</p>
+								</div>
+								<div class="prosjekter-item">
+									<p>Kotlin</p>
+									<p>Ingen</p>
+									<p>
+										Template for Android applikasjoner
+										som ønsker å benytte seg av MVP pattern (Model View Presenter).
+									</p>
+								</div>
+							</div>
 						</div>
-						<div class="prosjekter-item">
-						</div>
+					</div>
+
+
+
+					<div class="button-container">
+						<div class="button"><i class="fa fa-angle-left"></i></div>
+						<div class="button"><i class="fa fa-angle-right"></i></div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 
 
-
-
-		<div class="mal_innhold">
-			<div class="innhold">
-				<div class="prosjekter_mal">
-					<div class="prosjekter-grid">
-						<div class="prosjekter-item">
-							<h2>Hjemmeside</h2>
-						</div>
-						<div class="prosjekter-item">
-							<a href="https://github.com/heiberik/heiberik.github.io" target="_blank" rel="noreferrer">
-							  	<img class="footer_logo_img" src="../bilder/git2.png" alt="github" height="40">
-							</a>
-							<a href="https://heiberik.com" target="_blank">
-							  	<img class="footer_logo_img" src="../bilder/site2.png" alt="side" height="40">
-							</a>
-						</div>
-					</div>
-					<div class="prosjekter-grid" target="_blank">
-						<div class="prosjekter-item">
-							<p>Språk:</p>
-							<p>Host:</p>
-							<p>Om:</p>
-						</div>
-						<div class="prosjekter-item">
-							<p class="prosjekt-midt-tekst">html/css/js</p>
-							<p class="prosjekt-midt-tekst">GitHub pages</p>
-							<p class="prosjekt-midt-tekst">
-								Statisk webapplikasjon. Et pågående prosjekt for å
-								lære grunnleggende webutvikling og forbedre
-								skriveferdigheter.
-							</p>
-						</div>
-						<div class="prosjekter-item">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="mal_innhold">
-			<div class="innhold">
-				<div id="siste_prosjekter_mal" class="prosjekter_mal">
-					<div class="prosjekter-grid">
-						<div class="prosjekter-item">
-							<h2>Android Studios MVP Pattern</h2>
-						</div>
-						<div class="prosjekter-item">
-							<a href="https://github.com/heiberik/TemplateMVP" target="_blank" rel="noreferrer">
-							  	<img class="footer_logo_img" src="../bilder/git2.png" alt="github" height="40">
-							</a>
-						</div>
-					</div>
-					<div class="prosjekter-grid" target="_blank">
-						<div class="prosjekter-item">
-							<p>Språk:</p>
-							<p>Host:</p>
-							<p>Om:</p>
-						</div>
-						<div class="prosjekter-item">
-							<p class="prosjekt-midt-tekst">Kotlin</p>
-							<p class="prosjekt-midt-tekst">Ingen</p>
-							<p class="prosjekt-midt-tekst">
-								Grunnleggende template for Android applikasjoner
-								som ønsker å benytte seg av MVP pattern (Model View Presenter).
-							</p>
-						</div>
-						<div class="prosjekter-item">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="mal_innhold">
 			<div class="innhold">
 				<div class="tekstBoks">
 					<p>
-						Dersom det rykker litt ekstra i kodefingrene etter å ha
-						skummet gjennom noe av skvipet over er det bare å la seg inspirere!
+
 					 </p>
 				</div>
 			</div>
 		</div>
 
 
+
+
 		<footer class="footer">
 
 			<div class="kontaktinfo">
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/man.png" alt="man" height="20">
+					<a class="fa fa-user" style="font-size:26px;"></a>
 					<p>Henrik Heiberg</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/email.png" alt="email" height="20">
+					<a class="fa fa-inbox" style="font-size:26px;"></a>
 					<p>heiberik@hotmail.com</p>
 				</div>
 
 				<div class="boks">
-					<img class="boks_innhold" src="../bilder/location.png" alt="location" height="20">
+					<a class="fa fa-compass" style="font-size:26px;"></a>
 					<p>Oslo, Norway</p>
 				</div>
 			</div>
 
 			<div class="logoer_footer">
-				<a href="https://github.com/heiberik" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/github-logo.png" alt="github" height="45">
-				</a>
-
-				<a href="https://www.linkedin.com/in/heiberik/" target="_blank" rel="noreferrer">
-				  	<img class="footer_logo_img" src="../bilder/linkedin-logo.png" alt="linkedin" height="45">
-				</a>
+				<a href="https://github.com/heiberik" class="fa fa-github" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
+				<a href="https://www.linkedin.com/in/heiberik/" class="fa fa-linkedin" style="font-size:40px;" target="_blank" rel="noreferrer"></a>
 			</div>
 		</footer>
 
@@ -239,5 +212,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="../js/hoved.js"></script>
 		<script src="../js/tekst.js"></script>
+		<script src="../js/carousel.js"></script>
 	</body>
 </html>

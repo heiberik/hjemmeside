@@ -4,22 +4,6 @@
     padding-bottom: 100px;
 }
 
-.tekstBoks_forside_first {
-    width: 80ch;
-    margin-top: 100px;
-    padding-right: 10px;
-}
-
-.tekstBoks_forside {
-    width: 80ch;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.fyll {
-    margin-top: 1000px;
-}
-
 .cv_profilbilde {
     border-radius: 50%;
     box-shadow: 5px 5px 15px 4px black;
@@ -39,18 +23,6 @@
             animation: fadein 1.5s;
 }
 
-.les_mer {
-    display: none;
-}
-
-.toggle_lesMer {
-    background-color: #222;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    color: white;
-    font-size: 1rem;
-}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -80,28 +52,14 @@
 #more {display: none;}
 
 @media screen and (max-width: 768px) {
+
     .tekstBoks {
         margin-top: 20px;
         width: 70ch;
         padding: 5px;
     }
 
-    .tekstBoks_forside_first {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .tekstBoks_forside {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
     .innhold {
         padding: 15px;
-    }
-
-    .fyll {
-        margin-top: 0px;
     }
 }

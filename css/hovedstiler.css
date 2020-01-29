@@ -2,87 +2,55 @@
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 html {
     height: 100%;
     background-color: rgb(25,27,31);
     overflow-y: scroll;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     font-family: sans-serif, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 br {
-    display: block; /* makes it have a width */
-    content: ""; /* clears default height */
-    margin-top: 4vh; /* change this to whatever height you want it */
+    display: block;
+    content: "";
+    margin-top: 4vh;
 }
 
 .space_br {
     margin-top: 8vh;
 }
 
-
 .mal_innhold {
     max-width: 80vw;
-    background-color: rgb(25,27,31);
     margin: auto;
     border-bottom: 0px;
 }
 
-.flex_boks {
-    display: flex;
-}
-
-.flex_item {
-
-}
-
-.float_bilde_forside {
-    float: left;
-    margin-bottom: 2px;
-    margin-top: 8px;
-    margin-right: 15px;
-    border: 1px solid white;
-}
-
-
-.logo_pop {
-    transition: transform .5s;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.logo_pop:hover {
-    transform: scale(1.2);
-}
 
 
 h1 {
     font-size: 72px;
-    color: rgba(255, 255, 255, 0.9);
 }
 
 h2 {
     font-size: 34px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.9);
     line-height: 56px;
 }
 
 h3 {
-    color: rgba(255, 255, 255, 0.9);
     line-height: 30px;
 }
 
 h4 {
-    color: rgba(255, 255, 255, 0.9);
     font-size: 18px
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+h1, h2, h3, h4 {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 p {
@@ -93,7 +61,6 @@ p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
     text-align: justify;
-
 }
 
 .link {
@@ -126,7 +93,6 @@ sup a {
     font-family: 'Roboto', sans-serif;
 }
 
-
 @media screen and (max-width: 768px) {
 
     p {
@@ -143,30 +109,9 @@ sup a {
         margin-bottom: 1vh;
     }
 
-
     .mal_innhold {
         max-width: 100%;
         border: 0px;
         margin-bottom: 0px;
     }
-
-    .float_right {
-        display: none;
-    }
-
-    .flex_logoer {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 20px;
-        margin: 0px;
-    }
-
-    .logo_pop {
-        margin: 0;
-        padding: 0;
-        height: 70px;
-        width: auto;
-    }
-
 }

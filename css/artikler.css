@@ -151,7 +151,9 @@ sup {
     margin-bottom: 200px;
 }
 
-
+#label_sok {
+    display: none;
+}
 
 
 

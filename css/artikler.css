@@ -1,75 +1,3 @@
-.artikler_flex {
-    width: 80ch;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.artikler_item {
-    width: 35ch;
-    background-color: black;
-    background-image: linear-gradient(#202020, #000000);
-    border: 0;
-    box-shadow: 4px 4px 12px 0 black;
-    border-radius: 25px;
-    margin: 10px;
-}
-
-.artikler_item img {
-    width: 100%;
-    margin: auto;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-
-.artikler_item h4 {
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.1rem;
-    text-align: center;
-    color: white;
-    border-top: 2px solid #303030;
-    text-shadow: 2px 2px black;
-}
-
-.artikler_item_les {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 10px;
-    padding-top: 30px;
-}
-
-
-.artikler_item_les a {
-    padding: 15px;
-    text-decoration: none;
-    color: orange;
-    font-weight: 600;
-    text-shadow: 1px 1px black;
-    background-image: linear-gradient(to right, #202020, #404040, #202020);
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-    transition: 1s;
-}
-
-.artikler_item_les a:hover {
-    border-top: solid 1px orange;
-    border-bottom: solid 1px orange;
-}
-
-.artikler_item p {
-    padding: 30px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    text-align: left;
-    line-height: 25px;
-    letter-spacing: 0px;
-    word-spacing: 1px;
-    font-size: 0.9rem;
-}
-
 .bildetekst {
     display: block;
     margin: auto;
@@ -80,6 +8,13 @@
     letter-spacing: 1px;
     word-spacing: 1px;
     color: white;
+}
+
+.artikkelbilde_topp {
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+    box-shadow: 8px 8px 15px 2px black;
 }
 
 .artikkelbilde {
@@ -119,19 +54,9 @@
     border-bottom: .1rem solid rgba(255, 165, 0, 0.3);
 }
 
-.artikkel_bilde {
-    display: block;
-    margin: auto;
-    margin-bottom: 80px;
-    box-shadow: 8px 8px 15px 2px black;
-}
-
 sup {
     color: #ddd7d7;
 }
-
-
-
 
 .sup_br br {
     display: block; /* makes it have a width */
@@ -154,10 +79,6 @@ sup {
 #label_sok {
     display: none;
 }
-
-
-
-
 
 
 

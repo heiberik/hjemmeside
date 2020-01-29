@@ -12,7 +12,7 @@
     word-spacing: normal;
     font-size: 14px;
     font-family: sans-serif;
-    color: rgb(85,87,91);
+    color: rgba(255,255,255, 0.7);
 }
 
 .boks {
@@ -52,7 +52,7 @@
     color: rgb(5,7,11);
     margin-left: 10px;
     padding: 5px;
-    background: rgb(45,47,51);
+    background: rgba(255,255,255, 0.5);
     display: block;
     align-content: center;
     text-align: center;
@@ -68,7 +68,7 @@
     height: 30px;
     margin-right: 10px;
     padding: 2px;
-    color: rgb(45,47,51);
+    color: rgba(255,255,255, 0.5);
     background: inherit;
 }
 

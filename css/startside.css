@@ -95,17 +95,19 @@ mark {
 
 
 @media screen and (max-width: 768px) {
+
     .forside_tittel {
         margin: auto;
         line-height: 2rem;
         font-size: 2rem;
         width: auto;
-        margin: 20px;
+
         padding: 0px;
         max-width: 400px;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 20vh;
         padding-left: 10px;
+        margin-top: 25vh;
     }
 
     .forside_tekst {
@@ -117,6 +119,7 @@ mark {
         font-size: 16px;
         line-height: 24px;
         margin: auto;
+        text-align: center;
     }
 
 }

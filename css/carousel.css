@@ -115,6 +115,11 @@
         height: 300px;
     }
 
+    .items p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
     .items {
       margin-top: 250px;
       margin-bottom: 200px;

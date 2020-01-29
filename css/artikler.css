@@ -39,10 +39,10 @@
     text-decoration: none;
     letter-spacing: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 2px;
     font-family: Georgia, sans-serif;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .artikkel_overskrift {
@@ -476,7 +476,7 @@ a {
 
 
 
-    .artikkel_bilde {
+    .artikkelbilde_topp {
         display: block;
         margin: auto;
         margin-bottom: 50px;

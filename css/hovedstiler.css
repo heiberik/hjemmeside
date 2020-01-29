@@ -86,14 +86,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-    line-height: 32px;
+    line-height: 30px;
     letter-spacing: 0px;
-    word-spacing: 1px;
+    word-spacing: 0px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
-    font-family: Georgia, serif;
     text-align: justify;
+
 }
 
 .link {
@@ -129,9 +129,20 @@ sup a {
 
 @media screen and (max-width: 768px) {
 
-    html {
-        background-color: rgb(25,27,31);
+    p {
+        line-height: 30px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
     }
+
+    h2 {
+        line-height: 42px;
+        margin-bottom: 1vh;
+    }
+
 
     .mal_innhold {
         max-width: 100%;

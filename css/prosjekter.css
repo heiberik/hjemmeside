@@ -84,14 +84,19 @@
 }
 
 .prosjekter-row .fa {
-    height: 30px;
-    width: 30px;
-    box-shadow: 1px 1px 5px 0px black;
+    box-shadow: 1px 1px 15px 2px black;
     color: rgba(255, 255, 255, 0.7);
-    margin-left: 5px;
-    padding: 6px;
-    font-size: 32px;
     border-radius: 25%;
+    margin: 0px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 6px;
+    align-content: center;
+    text-align: center;
+    transition: all 400ms;
 }
 
 
@@ -120,7 +125,7 @@
     }
 
     .prosjekter-grid-top {
-        padding: 20px;
+        padding: 10px;
         padding-top: 30px;
         padding-bottom: 20px;
         background: linear-gradient(#111, #2b2b2b);
@@ -128,11 +133,19 @@
     }
 
     .prosjekter-grid-top h2 {
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     .prosjekter-row {
-        margin-right: 10px;
+        margin-right: 0px;
     }
+
+    .prosjekter-row .fa {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        padding: 6px;
+    }
+
 
 }

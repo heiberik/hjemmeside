@@ -77,7 +77,8 @@ sup {
 }
 
 #label_sok {
-    display: none;
+    color: rgba(255, 255, 255, 0.8);
+    margin: auto;
 }
 
 

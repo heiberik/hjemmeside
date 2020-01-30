@@ -100,7 +100,7 @@
 }
 
 .navbar_navn_boks h5 {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
     margin-left: 20px;
 }
@@ -108,12 +108,12 @@
 .navbar-toggle .fa {
     height: 30px;
     width: 30px;
-    font-size: 30px;
+    font-size: 25px;
     background: inherit;
-    color: gray;
+    color: rgba(255, 165, 0, 0.7);
     margin: 0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 
@@ -164,7 +164,6 @@
     }
 
     .navbar_navn_boks h5 {
-        color: rgba(255, 255, 255, 0.8);
         font-size: 22px;
         margin-left: 5px;
     }

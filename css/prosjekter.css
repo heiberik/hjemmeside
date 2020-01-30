@@ -75,17 +75,11 @@
     font-weight: 500;
 }
 
-.prosjekter-grid-top h2 {
-    margin-left: 20px;
-}
 
-.prosjekter-row {
-    margin-right: 20px;
-}
 
 .prosjekter-row .fa {
-    box-shadow: 1px 1px 15px 2px black;
-    color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 3px 10px 1px black;
+    color: rgba(255, 255, 255, 0.8);
     border-radius: 25%;
     margin: 0px;
     margin-left: 10px;
@@ -97,6 +91,10 @@
     align-content: center;
     text-align: center;
     transition: all 400ms;
+}
+
+.prosjekter-row .fa:hover {
+    transform: scale(1.1);
 }
 
 

@@ -3,6 +3,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
 html {
@@ -80,10 +81,16 @@ span {
     word-spacing: 5px;
 }
 
-sup a {
+
+
+.sup_br a {
     text-decoration: none;
+    background-image: none;
     color: white;
+    background-color: inherit;
 }
+
+
 
 .p_timeline {
     line-height: 1.2;

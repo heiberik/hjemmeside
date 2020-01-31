@@ -35,14 +35,18 @@
     to   { opacity: 1; }
 }
 
+
+
 .forside_beholder {
     display: block;
-    width: 80vw;
+    width: 70vw;
     height: auto;
     margin: auto;
     padding: 5vw;
     position: relative;
+    background-color: rgb(25,27,31);
 }
+
 
 .forside_bildeOgStrek {
     position:relative;
@@ -91,16 +95,22 @@
 
 .forside_tittel {
     text-align: right;
-    width: 70%;
+    width: 75%;
     color: rgba(255, 255, 255, 0.4);
     font-variant:small-caps;
     margin: auto;
     margin-right: 0px;
     margin-top: 0px;
     font-family: Georgia, serif;
-    font-size: 4.5vw;
-    line-height: 4vw;
+    font-size: 3vw;
+    line-height: 3vw;
     text-shadow: 3px 3px black;
+}
+
+.mark-tittel {
+    color: rgba(255, 165, 0, 0.8);
+    font-size: 3.5vw;
+    padding: 0px;
 }
 
 .forside_tekst_div {
@@ -114,36 +124,46 @@
     margin: auto;
     margin: 0px;
     max-width:54%;
-    line-height: 48px;
     letter-spacing: 0px;
     word-spacing: 0px;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 30px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Georgia, serif;
     text-shadow: 2px 2px black;
 }
 
 .forside_tekst a {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background: inherit;
+    font-size: 22px;
+    padding: 3px;
 }
 
 mark {
     background-color: inherit;
-    color: white;
+    color: rgba(255, 165, 0, 0.8);
+    font-size: 28px;
+    padding: 3px;
 }
 
 
-.mark-tittel {
-    color: rgba(255, 255, 255, 0.9);
-}
+
 
 
 
 @media screen and (max-width: 768px) {
+
+    .forside_bakgrunn {
+        display: flex;
+        height: auto;
+        margin: auto;
+        padding: 0px;
+        position: relative;
+        background-image: none;
+    }
 
     .forside_beholder {
         padding: 0px;
@@ -182,16 +202,22 @@ mark {
         margin: auto;
         line-height: 6vw;
         font-size: 7vw;
-        width: 90%;
+        width: 94%;
         padding-left: 10px;
         padding-right: 10px;
         margin: auto;
         margin-right: 0px;
     }
 
+    .mark-tittel {
+        color: rgba(255, 165, 0, 0.8);
+        font-size: 8vw;
+    }
+
+
     .forside_tekst {
-        max-width: 430px;
-        width: 74vw;
+        max-width: 540px;
+        width: 75vw;
         margin-left: 0px;
         font-size: 16px;
         line-height: 20px;
@@ -200,5 +226,16 @@ mark {
         padding-left: 10px;
         padding-right: 10px;
         text-align: left;
+    }
+
+    .forside_tekst a {
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    mark {
+        background-color: inherit;
+        font-size: 24px;
+        padding: 2px;
     }
 }

@@ -37,85 +37,89 @@
 
 .forside_beholder {
     display: block;
-    max-width: 960px;
-    margin-top: 0px;
-    padding-right: 50px;
-    padding-left: 50px;
+    width: 80vw;
+    height: auto;
     margin: auto;
+    padding: 5vw;
+    position: relative;
 }
 
 .forside_bildeOgStrek {
     position:relative;
-    max-width:960px;
+    width: 100%;
     margin:0 auto;
     overflow:hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 0px;
-    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .forside_bildeOgStrek:before{
     position:absolute;
     color: orange;
     content:"";
-    border-bottom: .1rem solid;
+    border-bottom: rgba(255, 165, 0, 0.1) solid;
     left:-94px;
-    height:110px;
-    width:50%;
+    height:80px;
+    width:60%;
     top:0;
+    z-index: 0;
 }
 
 .forside_bildeOgStrek:after{
     position:absolute;
     color: orange;
     content:"";
-    border-bottom: .1rem solid;
+    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
     right:-94px;
     top:0;
-    height:110px;
-    width:50%;
+    height:80px;
+    width:60%;
+    z-index: 0;
 }
 
 .forside_bilde {
     border-top-left-radius: 70%;
     border-bottom-right-radius: 70%;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: auto;
     display: block;
-    border: solid orange .1rem;
+    border: solid rgba(255, 165, 0, 0.4) .1rem;
+    position: relative;
+    z-index: 2;
 }
 
 .forside_tittel {
     text-align: right;
-    max-width:960px;
-    margin: auto;
-    font-size: 74px;
+    width: 70%;
     color: rgba(255, 255, 255, 0.4);
     font-variant:small-caps;
     margin: auto;
+    margin-right: 0px;
+    margin-top: 0px;
     font-family: Georgia, serif;
-    line-height: 72px;
+    font-size: 4.5vw;
+    line-height: 4vw;
     text-shadow: 3px 3px black;
 }
 
 .forside_tekst_div {
-    max-width:960px;
+    width: 100%;
     margin: auto;
+    margin-bottom: 0px;
 }
 
 .forside_tekst {
     text-align: left;
     margin: auto;
     margin: 0px;
-    max-width:440px;
+    max-width:54%;
     line-height: 48px;
     letter-spacing: 0px;
     word-spacing: 0px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 36px;
+    line-height: 28px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Georgia, serif;
     text-shadow: 2px 2px black;
@@ -144,7 +148,7 @@ mark {
     .forside_beholder {
         padding: 0px;
         margin: auto;
-        border: solid red 1px;
+        width: 100vw;
     }
 
     .forside_bildeOgStrek {
@@ -152,49 +156,33 @@ mark {
         max-width:100%;
         margin:0 auto;
         overflow:hidden;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .forside_bildeOgStrek:before{
-        position:absolute;
-        color: orange;
-        content:"";
-        border-bottom: .1rem solid;
-        left:-70px;
-        height:85px;
-        width:50%;
-        top:0;
-    }
-
-    .forside_bildeOgStrek:after{
-        position:absolute;
-        color: orange;
-        content:"";
-        border-bottom: .1rem solid;
-        right:-70px;
-        top:0;
-        height:85px;
-        width:50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .forside_bilde {
         border-top-left-radius: 70%;
         border-bottom-right-radius: 70%;
-        height: 150px;
-        width: 150px;
+        height: 130px;
+        width: 130px;
         margin: auto;
         display: block;
-        border: solid orange .1rem;
+    }
+
+    .forside_bildeOgStrek:after{
+        height: 70px;
+    }
+
+
+    .forside_bildeOgStrek:before {
+        height: 70px;
     }
 
     .forside_tittel {
         margin: auto;
-        line-height: 2rem;
-        font-size: 2rem;
-        width: 50%;
+        line-height: 6vw;
+        font-size: 7vw;
+        width: 90%;
         padding-left: 10px;
         padding-right: 10px;
         margin: auto;
@@ -202,12 +190,15 @@ mark {
     }
 
     .forside_tekst {
-        width: 50%;
+        max-width: 430px;
+        width: 74vw;
         margin-left: 0px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
         margin-top: 0px;
         padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: left;
     }
 }

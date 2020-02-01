@@ -4,24 +4,6 @@
     margin: auto;
 }
 
-.nav_logo {
-    margin-left: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-}
-
-
-.nav_logo_tekst_mobil {
-    font-size: 1.4rem;
-    color: white;
-}
-
-
 .main-nav {
     list-style-type: none;
     display: none;
@@ -29,46 +11,18 @@
     padding: 0;
 }
 
-
 .nav_link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgb(7,8,9);
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(7,8,9, 0.3);
     font-weight: bold;
     font-size: 0.9rem;
     margin: 0px;
-}
-
-
-.top_li {
-    border-top: solid gray 1px;
-}
-
-
-.main-nav li {
     text-align: center;
     border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
-}
-
-.main-nav a {
     display: block;
     padding: 10px;
 }
-
-.navbar .logo {
-    display: flex;
-    font-size: 18px;
-    margin-left: 20px;
-    width: auto;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.icon {
-    display: none;
-    align-items: center;
-}
-
 
 .navbar-toggle {
     position: absolute;
@@ -90,7 +44,6 @@
     margin: auto;
     padding: 0px;
 }
-
 
 .navbar_navn_boks img {
     height: 30px;
@@ -117,13 +70,7 @@
 }
 
 
-
 @media screen and (min-width: 768px) {
-
-    .top_li {
-        border-top: solid black 0px;
-        margin-top: 0;
-    }
 
     .navbar {
         background: rgb(9, 10, 11);
@@ -134,6 +81,10 @@
         display: flex;
         justify-content: center;
         height: 60px;
+    }
+
+    .nav_link {
+        border-bottom: none;
     }
 
     .nav_bilde {
@@ -172,11 +123,7 @@
         color:white;
     }
 
-    .nav_transition {
-        background-image:inherit;
-    }
-
-    .nav_logo, .navbar-toggle {
+    .navbar-toggle {
         display: none;
     }
 

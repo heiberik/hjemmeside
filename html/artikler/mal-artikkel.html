@@ -13,45 +13,41 @@
 		</script>
 		<!-- End Google Analytics -->
 
-		<title>Artikkel mal</title>
+		<title>Overskrift til artikkel</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../../css/navbar.css">
-		<link rel="stylesheet" type="text/css" href="../../css/hovedstiler.css">
-		<link rel="stylesheet" type="text/css" href="../../css/tekstbokser.css">
-		<link rel="stylesheet" type="text/css" href="../../css/footer.css">
-		<link rel="stylesheet" type="text/css" href="../../css/artikler.css">
+		<link rel="stylesheet" type="text/css" href="../../css/compressed-artikkel.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<html lang="no">
-        <meta name="description" content="Tekstlig beskrivelse av artikkel">
-		<meta name="keywords" content="Henrik Heiberg, heiberik, andre nøkkelord">
+        <meta name="description" content=" Beskrivelse av tekst ">
+		<meta name="keywords" content=" nøkkelord ">
 		<meta name="author" content="Henrik Heiberg">
-		<meta property="og:image" content="https://heiberik.com/bilder/space.jpg"/>
-		<meta property="og:image:secure_url" content="https://heiberik.com/bilder/space.jpg"/>
+		<meta property="og:image" content=""/>
+		<meta property="og:image:secure_url" content=""/>
 	</head>
 
 	<body>
+
+
+
 
 		<nav class="navbar">
 			<span class="navbar-toggle" id="js-navbar-toggle">
             	<i class="fa fa-bars"></i>
         	</span>
 
-	        <ul class="main-nav" id="js-menu">
-
-		        <li class="top_li">
-	               <a class="nav_link" href="../forside.html">Forside</a>
-	            </li>
-			    <li>
-				   <a class="nav_link" href="../cv.html">Om meg</a>
-			    </li>
-				<div class="navbar_navn_boks">
-					<img class="nav_bilde" src="../../bilder/profil.jfif" alt="profil">
-					<div class="navbar_navn_div">
-						<h5 class="navbar_navn_tekst">Henrik Heiberg</h5>
-					</div>
+			<div class="navbar_navn_boks">
+				<img class="nav_bilde" src="../../bilder/profil.jfif" alt="profil">
+				<div class="navbar_navn_div">
+					<h5 id="tekst_artikler" class="navbar_navn_tekst">Henrik Heiberg</h5>
 				</div>
+			</div>
+
+	        <ul class="main-nav" id="js-menu">
 				<li>
-	                <a class="nav_link" href="../artikler.html" id="nav_gjeldende">Artikler</a>
+				   <a class="nav_link" href="../cv.html">Om meg</a>
+			   </li>
+				<li>
+	                <a class="nav_link" href="../artikler.html">Artikler</a>
 	            </li>
 	            <li>
 	                <a class="nav_link" href="../prosjekter.html">Prosjekter</a>
@@ -64,29 +60,55 @@
 			<section class="innhold">
 				<article class="tekstBoks">
 
-                    <h1 class="artikkel_overskrift">Overskrift på artikkel</h1> <br><br>
+                    <h1 class="artikkel_overskrift">Overskrift til artikkel</h1> <br><br>
 
-					<img class="artikkel_bilde" src="../../bilder/space.jpg" alt="universet">
-
+					<img class="artikkelbilde_topp" src="../../bilder/space.jpg" alt="universet">
                     <p>
-                        Del før bildet.
+
+
+						Men, før vi setter i gang - hva er egentlig universet? Wikipedia definerer
+						universet som alt som eksisterer av tid og rom, og innholdet i rommet, herunder
+						materie og stråling. Det inkluderer planeter, måner, dvergplaneter, stjerner,
+						galakser, intergalaktisk rom, og all materie og energi.<sup><a class="link_artikkel" href="#fn1" id="ref1">1</a></sup>
+						<br><br>
                     </p>
 
-                    <!-- Artikkelbilde -->
+
+					<br>
+					<div class="space_br"></div>
+					<h2>Størrelse</h2>
+					<p>
+						La oss starte med litt snacks om universets størrelse. Bare det observerbare
+						universet sies å være minst 90 milliarder lysår i diameter. Ja vel ja?
+						Skjønner vi egentlig hvor stort dette er?
+						<br><br>
+                    </p>
+
+					<br>
 					<div class="artikkel_bilderamme">
-						<img src="../../bilder/hubble3.jpg" alt="hubble1"  class="artikkelbilde">
-						<p class="bildetekst"> NASA; ESA; G. Illingworth, D. Magee, and P. Oesch, University of California, Santa Cruz; R. Bouwens, Leiden University; and the HUDF09 Team</p>
+						<img src="../../bilder/hubble1.jpg" alt="hubble1" class="artikkelbilde">
+						<p class="bildetekst"> NASA; ESA; and Z. Levay, STScI; Moon Image Credit: T. Rector; I. Dell'Antonio/NOAO/AURA/NSF</p>
 					</div>
 
-                    <p>
-                        Del etter bildet.
+					<br><br><br>
+
+					<p>
+						Ikke rare greiene det der. Likevel tok Hubble-teleskopet hundrevis av bilder fokusert
+						på det samme mørke og tomme punktet. De enkelte bildene ble så satt sammen til
+						følgende bilde:
+						<br><br>
+
+
                     </p>
 
-					<br><br><br><br>
-                    <hr></hr>
+
+
                     <br>
-                    <sup id="fn1">1. Referanse 1 <a href="#ref1" title="Hopp tilbake til fotnote 1."> &#8617;</a></sup> <br>
-                    <sup id="fn2">2. Referanse 2 <a href="#ref2" title="Hopp tilbake til fotnote 2."> &#8617;</a></sup> <br>
+					<div class="sup_br">
+						<sup id="fn1">1. https://no.wikipedia.org/wiki/Universet <a href="#ref1" title="Hopp tilbake til fotnote 1."> &#8617;</a></sup> <br>
+
+					</div>
+
 				</article>
 			</section>
 		</div>

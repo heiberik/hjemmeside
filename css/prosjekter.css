@@ -76,7 +76,6 @@
 }
 
 
-
 .prosjekter-row .fa {
     box-shadow: 5px 5px 20px 5px black;
     color: rgba(255, 255, 255, 0.8);
@@ -135,14 +134,15 @@
     }
 
     .prosjekter-row {
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .prosjekter-row .fa {
+        box-shadow: 2px 2px 10px 2px black;
         width: 40px;
         height: 40px;
-        font-size: 30px;
-        padding: 6px;
+        font-size: 25px;
+        padding: 8px;
     }
 
 

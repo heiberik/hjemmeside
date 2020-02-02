@@ -53,15 +53,15 @@
     width: 100%;
     margin:0 auto;
     overflow:hidden;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 90px;
 }
 
 .forside_bildeOgStrek:before{
     position:absolute;
     color: orange;
     content:"";
-    border-bottom: rgba(255, 165, 0, 0.1) solid;
+    border-bottom: rgba(255, 165, 0, 0.1) .1rem solid;
     left:-94px;
     height:80px;
     width:60%;
@@ -88,7 +88,7 @@
     width: 150px;
     margin: auto;
     display: block;
-    border: solid rgba(255, 165, 0, 0.4) .1rem;
+    border: solid rgba(255, 165, 0, 0.4) .2rem;
     position: relative;
     z-index: 2;
 }
@@ -96,7 +96,7 @@
 .forside_tittel {
     text-align: right;
     width: 75%;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.5);
     font-variant:small-caps;
     margin: auto;
     margin-right: 0px;
@@ -108,7 +108,7 @@
 }
 
 .mark-tittel {
-    color: rgba(255, 165, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 3.5vw;
     padding: 0px;
 }
@@ -144,7 +144,7 @@
 
 mark {
     background-color: inherit;
-    color: rgba(255, 165, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 28px;
     padding: 3px;
 }
@@ -176,7 +176,7 @@ mark {
         max-width:100%;
         margin:0 auto;
         overflow:hidden;
-        margin-top: 50px;
+        margin-top: 60px;
         margin-bottom: 50px;
     }
 
@@ -210,8 +210,8 @@ mark {
     }
 
     .mark-tittel {
-        color: rgba(255, 165, 0, 0.8);
         font-size: 8vw;
+
     }
 
 

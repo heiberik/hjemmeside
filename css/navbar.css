@@ -124,6 +124,11 @@
         white-space: nowrap;
         display: flex;
         align-items: center;
+        transition: 400ms;
+    }
+
+    .navbar_navn_tekst {
+        transition: all 400ms;
     }
 
     .navbar_navn_boks h5 {
